@@ -1,0 +1,20 @@
+<!-- start custom footer -->
+
+<ul>
+{% assign products_by_category = site.data.products | group_by: 'category' %}
+{% for product_group in products_by_category %}
+    <li>
+        {{ product_group.name }}
+        <ul>
+            {% for product in product_group.items | sort: 'id' %}
+            <li>
+                <a href="{{ product.path }}">{{ product.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+{% endfor %}
+</ul>
+
+<!-- end custom footer -->
+
