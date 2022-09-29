@@ -1,0 +1,41 @@
+---
+layout: default
+title: Gallery 
+---
+{% assign gallery_sections = site.data.gallery.sections %}
+{% assign gallery_categories = site.data.gallery.categories %}
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="{{ 'assets/images/illustrations/page-title.png' | relative_url }}" alt="illustrations" class="bg-shape-1 w-100">
+</section>
+<!-- /page title -->
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+    {% for gallery_section in gallery_sections %}
+    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+      <div class="card shadow text-center">
+        <div class="position-relative rounded-top progress-wrapper" data-color="{{ gallery_section.color }}">
+          <div class="wave" data-progress="90%"></div>
+        </div>
+        <div class="card-footer bg-white">
+          <h4 class="card-title"><a href="{{ gallery_section.url }}">{{ gallery_section.title }}</a></h4>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+</section>
+

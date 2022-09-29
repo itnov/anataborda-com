@@ -1,0 +1,19 @@
+<header class="navigation fixed-top-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand font-tertiary h3" href="{{ '/' | relative_url }}">{{ site.data.config.site.title }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          {% for nav_link in site.data.config.nav_links %}
+          <li class="nav-item{% if page.url contains nav_link.url %} active{% endif %}">
+            <a class="nav-link" href="{{ nav_link.url }}" data-url="{{ page.url }}" {% if nav_link.target %} target="{{ nav_link.target }}"{% endif %}>{{ nav_link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+    </nav>

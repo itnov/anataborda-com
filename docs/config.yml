@@ -1,13 +1,15 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Ana Taborda Art, Resin and Wall Tapestry, UK London" # the name of your site, e.g. ACME Corp.
+url: https://www.anataborda.com
+title: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
+description: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
 
 remote_theme: pages-themes/slate@v0.2.0
+
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 theme: jekyll-theme-slate
 
-show_downloads: false
 google_analytics: 1234
 
 keep_files: [CNAME, .git]
@@ -15,11 +17,19 @@ keep_files: [CNAME, .git]
 gems:
 - jekyll-github-metadata
 - jekyll-redirect-from
-- jekyll-sitemap
+-     
+
+foo: bar
 
 markdown: kramdown
 
+breadcrumbs:
+  root:
+    hide: false  # show breadcrumbs on root/home page
+    image: false # Show image or title text
+
 collections:
   artwork:
+    output: true  
+  gallery:
     output: true
-    permalink: /artwork/:path 

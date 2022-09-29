@@ -1,0 +1,44 @@
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  {% assign site_config = site.data.config.site %}
+  <title>{{ page.head.title }}</title>
+  <meta name="description" content="{{ page.head.description }}">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{ 'assets/images/favicon.png' | relative_url }}" />
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ 'assets/plugins/bootstrap/bootstrap.min.css' | relative_url }}">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="{{ 'assets/plugins/slick/slick.css' | relative_url }}">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="{{ 'assets/plugins/themify-icons/themify-icons.css' | relative_url }}">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
+
+  <!-- Open Graph protocol -->
+  {% if page.head.og %}
+    <meta property="og:title" content="{{ page.head.og.title }}" />
+    <meta property="og:url" content="{{ page.head.og.url }}" />
+    {% if page.head.og.type %}
+    <meta property="og:type" content="{{ page.head.og.type }}" />
+    {% endif %}
+    {% if page.head.og.image %}
+    <meta property="og:image" content="{{ page.head.og.image }}" />
+    {% endif %}
+    <meta property="og:site_name" content="{{ site_config.title }}">
+    <meta property="og:locale" content="{{ site_config.locale }}">
+  {% endif %}
+
+  <!-- Open Graph protocol -->
+  {% if page.head.twitter %}
+    <meta name="twitter:card" content="{{ page.head.twitter.card }}">
+    <meta name="twitter:site" content="{{ page.head.twitter.site }}">
+  {% endif %}
+
+{% if page.head.canonical %}
+  <link rel="canonical" href="{{ page.head.canonical }}" />
+{% endif %}

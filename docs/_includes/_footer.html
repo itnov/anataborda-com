@@ -1,16 +1,38 @@
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-        <span class="text-muted">© 2021 Company, Inc</span>
+<footer class="footer-section bg-primary">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">orders@anataborda.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+44 7835 794 797</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Where</h5>
+          <p class="text-white paragraph-lg font-secondary">London, UK</p>
+        </div>
       </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="#">#twitter</a></li>
-        <li class="ms-3"><a class="text-muted" href="#">#instagram</a></li>
-        <li class="ms-3"><a class="text-muted" href="#">#facebook</a></li>
-      </ul>
-    </footer>
+    </div>
   </div>
+  <div class="border-top text-center border-dark bg-primary-dark py-5">
+    <p class="mb-0 text-light">Copyright &copy;<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Proudly hosted by github.com &amp; developed by danieltaborda</p>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="{{ 'assets/plugins/jQuery/jquery.min.js' | relative_url }}"></script>
+<!-- Bootstrap JS -->
+<script src="{{ 'assets/plugins/bootstrap/bootstrap.min.js' | relative_url }}"></script>
+<!-- slick slider -->
+<script src="{{ 'assets/plugins/slick/slick.min.js' | relative_url }}"></script>
+<!-- filter -->
+<script src="{{ 'assets/plugins/shuffle/shuffle.min.js' | relative_url }}"></script>
+
+<!-- Main Script -->
+<script src="{{ 'assets/js/script.js' | relative_url }}"></script>

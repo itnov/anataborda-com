@@ -1,0 +1,618 @@
+products:
+  - id: AT0001
+    title: Resin beach, Unique Shape Art, Apartment Decor, Send a gift
+    path: resin-green-lagoon
+    category: Seascape
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/resin-green-lagoon.webp
+    mesures:
+      width: 41 centimetres
+      height: 60 centimetres
+      depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+      <p>Original handmade painting on wood panel. READY TO HANG!</p>
+      <p>* MADE TO ORDER - ask me for a quote if you would like to get even bigger size</p>
+      <p>  MADE TO ORDER 3D RESIN BEACH ART!</p>
+
+      <p>
+        Please allow 1-2 weeks for me to create your artwork, especially larger work. 
+        Resin cures slow, beside that I work in multiple layers.
+      </p>
+
+  - id: AT0002
+    title: Resin Wall Clock, Handmade with Crystals
+    path: resin-wall-clock-with-crystals-handmade-clock
+    store: 
+      sumup_link: /product/resin-wall-clock-with-crystals-handmade-clock
+    category: Resin Clock
+    tags: Resin, Wall Clock
+    image: assets/images/artwork/resin-wall-clock-with-crystals-handmade-clock.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0003
+    title: Resin Fine Art in Golden and Peach
+    path: resin-fine-art-in-golden-and-peach
+    store: 
+      sumup_link: /product/resin-fine-art-in-golden-and-peach
+    category: Fine Art
+    tags: Resin
+    image: assets/images/artwork/resin-fine-art-in-golden-and-peach.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0004
+    title: Fluid Art Resin Clock with Orquideas
+    path: fluid-art-resin-clock-with-orquideas
+    store: 
+      sumup_link: /product/orquidea-wall-clock
+    category: Resin Clock
+    tags: Resin, Clock
+    image: assets/images/artwork/fluid-art-resin-clock-with-orquideas.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0005
+    title: Bamboo Serving/Cutting Board with waves
+    path: bamboo-serving-cutting-board-with-waves
+    store: 
+      sumup_link: /product/40x28cm-bamboo-serving-cutting-board-with-waves
+    category: Serving Cutting Board
+    tags: Cutting Board, Board with waves, Bamboo
+    image: assets/images/artwork/bamboo-serving-cutting-board-with-waves.jpeg
+    color: "#005983"
+    mesures:
+      width: 40 centimetres
+      height: 28 centimetres
+      depth: 1.5 millimetres
+    short_description: >
+      Stunning bamboo ocean style board decorated with resin and rich vibrant pigments colours. Made with non toxic, food safe resin.
+    long_description: >
+      <strong>
+        Stunning bamboo ocean style board decorated with resin and rich vibrant pigments colours. Made with non toxic, food safe resin. 
+        Perfect to be displayed on table or can even be used a chopping board.
+        
+        <p>Dimensions: 40cm x 28cm x 1.5 cm</p>
+
+        <p>Hand wash only, recommended that the wood be rubbed with vegetable oil every few months to prolong the Life of the board. It should be noted that food should not be cut on the resin section of the board.</p>
+
+        <p>This is made by hand and during the curing process som e small imperfections may occur (small dust particles, tiny air bubbles, little dimples etc). Please be aware this is homemade art work, not made in factory. If you have any additional questions, please feel free to contact me.</p>
+
+        <p>Thank you for visiting my shop!</p>
+        
+        <p>Comissions and custom orders are available</p>
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0006
+    title: Blue Shades Lagoon
+    path: blue-shades-lagoon
+    category: Seascape
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/blue-shades-lagoon.webp
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+      <p>Original handmade painting on wood panel. READY TO HANG!</p>
+      <p>* MADE TO ORDER - ask me for a quote if you would like to get even bigger size</p>
+      <p>  MADE TO ORDER 3D RESIN BEACH ART!</p>
+
+      <p>
+        Please allow 1-2 weeks for me to create your artwork, especially larger work. 
+        Resin cures slow, beside that I work in multiple layers.
+      </p>
+
+  - id: AT0007
+    title: Wall Hanging Tapestry - Chic Bohemian Style
+    path: wall-hanging-tapestry-chic-bohemian-style
+    category: Wall Tapestry
+    tags: Tapestry, Crochet
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0008
+    title: Wall Hanging Tapestry in Crochet - Salt Caramel
+    path: wall-hanging-tapestry-in-crochet-salt-caramel
+    category: Wall Tapestry
+    tags: Tapestry, Crochet
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0009
+    title: Resin Clock Fluid Art - Black Space
+    path: resin-clock-fluid-art-black-space
+    store: 
+      sumup_link: /product/resin-clock-fluid-art-black-space
+    category: Resin Clock
+    tags: Resin
+    image: assets/images/artwork/resin-clock-fluid-art-black-space.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0010
+    title: Resin Wooden Box with Three Drawers
+    path: resin-wooden-box-with-three-drawers
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0011
+    title: Resin Wall Clock 12" Fluid Art
+    path: resin-wall-clock-fluid-art
+    store: 
+      sumup_link: /product/resin-wall-clock-12-fluid-art
+    category: Resin Clock
+    tags: Resin
+    image: assets/images/artwork/resin-wall-clock-fluid-art.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0012
+    title: Handmade Resin wall letters
+    path: handmade-resin-wall-letters
+    category: Artwork
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0013
+    title: Resin Ocean Art
+    path: resin-ocean-art
+    category: Seascape
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/resin-ocean-art.webp
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0014
+    title: Rustic Cutting Board Olive Wood 40x20cm - Fluid Art
+    path: rustic-cutting-board-olive-wood
+    store: 
+      sumup_link: /product/handmade-cutting-board-olive-wood-40x20cm
+    category: Serving Cutting Board
+    tags: Resin
+    image: assets/images/artwork/rustic-cutting-board-olive-wood.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0015
+    title: Resin Clock 20" Beach Landscape
+    path: resin-clock-beach-landscape
+    store: 
+      sumup_link: /product/resin-clock-20-beach-landscape
+    category: Resin Clock
+    tags: Resin
+    image: assets/images/artwork/resin-clock-beach-landscape.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0016
+    title: Beach Resin 20" Landscape
+    path: beach-resin-landscape
+    store: 
+      sumup_link: /product/beach-resin-20-landscape
+    category: Seascape
+    tags: Resin
+    image: assets/images/artwork/beach-resin-landscape.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0017
+    title: Underwater Artwork
+    path: underwater-artwork
+    category: Seascape
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/underwater-artwork.webp
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0018
+    title: Elegant Resin Wall Clock fluid art
+    path: elegant-resin-wall-clock-fluid-art
+    store: 
+      sumup_link: /product/elegant-fluid-art-painted-resin-wall-clock
+    category: Resin Clock
+    tags: Resin
+    image: assets/images/artwork/elegant-resin-wall-clock-fluid-art.jpeg
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0019
+    title: Round Gold Resin Geode
+    path: round-gold-resin-geode
+    category: resin
+    tags: Resin Geode, Geode
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0020
+    title: Resin Clock Fluid Art with gold butterflies
+    path: resin-clock-fluid-art-with-gold-butterflies
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0021
+    title: Resin wooden box - green fluid art
+    path: resin-wooden-box-green-fluid-art
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0022
+    title: Resin waves chopping board
+    path: resin-waves-chopping-board
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0023
+    title: 3D Wooden Box With 3 Compartments
+    path: wooden-box-with-3-compartments-3d
+    category: resin
+    tags: Wooden Box
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0024
+    title: 3D Resin Beach
+    path: resin-beach-3d
+    category: resin
+    tags: Resin Beach, 3D
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0026
+    title: 3D White Beach
+    path: white-beach-3d
+    category: resin
+    tags: 3D Beach
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0027
+    title: 3D Resin Wooden Black Jewellery Box
+    path: resin-wooden-black-jewellery-box-3d
+    category: resin
+    tags: Jewellery Box, Jewellery
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0028
+    title: Serving Olive Board - Rose Fluid Art
+    path: serving-olive-board-rose-fluid-art
+    category: resin
+    tags: Serving Board
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0029
+    title: 3D Resin Ocean Clock
+    path: resin-ocean-clock-3d
+    category: resin
+    tags: Clock, Resin Clock
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0030
+    title: Resin 3D island in Wooden Log Slice
+    path: resin-3d-island-in-wooden-log-slice
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0031
+    title: Resin Beach Landscape in Canvas
+    path: resin-beach-landscape-in-canvas
+    category: resin
+    tags: Resin
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0032
+    title: 3D Ocean Sea
+    path: ocean-sea-3d
+    category: Resin
+    tags: Ocean, 3D
+    color: "#005983"
+    # mesures:
+    #   width: 41 centimetres
+    #   height: 60 centimetres
+    #   depth: 9 millimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>

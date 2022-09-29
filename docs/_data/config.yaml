@@ -1,0 +1,49 @@
+social:
+  instagram: "https://instagram.anataborda.com"
+  facebook: https://facebook.anataborda.com
+  twitter: https://twitter.anataborda.com
+  etsy: https://etsy.anataborda.com
+  pinterest: https://pinterest.anataborda.com
+
+store_sumup:
+  link: https://anataborda.sumup.link
+
+form_order:
+  post_url: https://us-central1-www-contact-335615.cloudfunctions.net/order-art
+  title: Contact for new ArtWork Order
+  name: Full Name
+  email: Email Address
+  message: Details about the Artwork you looking to order, dimensions, colours, any reference you have seen in my portfolio
+
+gallery:
+  template: portfolio # list
+
+nav_links:
+  # - title: Home Decor
+  #   url: /home-decor-art-resin-and-wall-tapestry-unique-gifts
+
+  # - title: Online Store
+  #   url: https://anataborda.sumup.link/
+  #   target: _blank
+
+  # - title: Gallery
+  #   url: /gallery
+
+  - title: Artwork
+    url: /artwork
+
+  # - title: Events
+  #   url: /events
+
+  #- title: Order-Artwork
+  #  url: /Order-Artwork
+
+  - title: Social Networks
+    url: /social-networks
+
+  - title: About Me
+    url: /about-me
+
+site:
+  title: Ana Taborda Art
+  locale: en_GB
