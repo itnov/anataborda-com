@@ -1,0 +1,33 @@
+---
+layout: default-detail
+productID: AT0021
+head:
+  title: Resin wooden box - green fluid art
+  description: description as we want
+---
+{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+
+{% include _header_pagetitle_a.html %}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="font-tertiary mb-3">{{ product.title }}</h3>
+        <p class="font-secondary mb-5">{{ product.tags }}</p>
+        <div class="content">
+          {% if product.image %}
+          <img src="{{ product.image | relative_url }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+          {% endif %}
+          {{ product.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- to include Similar artwork here: _artwork_similar.html -->
+
+<!-- contact -->
+{% include _contact.html %}
+<!-- /contact -->

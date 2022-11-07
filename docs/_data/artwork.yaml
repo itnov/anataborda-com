@@ -1,11 +1,21 @@
 products:
   - id: AT0001
+<<<<<<< HEAD
     title: Resin beach, Unique Shape Art, Apartment Decor, Send a gift
     path: resin-green-lagoon
     category: Seascape
     tags: Seascape, Ocean on Wall, Resin ArtWork
     image: assets/images/artwork/resin-green-lagoon.webp
     mesures:
+=======
+    familly: resin
+    title: Resin beach, Unique Shape Art, Apartment Decor, Send a gift
+    path: resin-green-lagoon
+    category: Seascapes
+    tags: Seascape, Ocean Themed, Wall Art, Resin ArtWork
+    image: assets/images/artwork/resin-green-lagoon.webp
+    dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
       width: 41 centimetres
       height: 60 centimetres
       depth: 9 millimetres
@@ -13,11 +23,16 @@ products:
       The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
     long_description: >
       <strong>
+<<<<<<< HEAD
         The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
+=======
+        The sea is a great gift for yourself and loved ones. Have a stunning and bright seascape in a beautiful wooden panel to create a calming ambiance in your home.
+>>>>>>> 5b7e0c3 (update gallery and artwork)
       </strong>
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
       <p>Original handmade painting on wood panel. READY TO HANG!</p>
+<<<<<<< HEAD
       <p>* MADE TO ORDER - ask me for a quote if you would like to get even bigger size</p>
       <p>  MADE TO ORDER 3D RESIN BEACH ART!</p>
 
@@ -28,10 +43,17 @@ products:
 
   - id: AT0002
     title: Resin Wall Clock, Handmade with Crystals
+=======
+      
+  - id: AT0002
+    familly: resin
+    title: Resin Wall Clock with Gemstones
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     path: resin-wall-clock-with-crystals-handmade-clock
     store: 
       sumup_link: /product/resin-wall-clock-with-crystals-handmade-clock
     category: Resin Clock
+<<<<<<< HEAD
     tags: Resin, Wall Clock
     image: assets/images/artwork/resin-wall-clock-with-crystals-handmade-clock.jpeg
     color: "#005983"
@@ -69,11 +91,50 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0004
+=======
+    tags: Resin Wall Clock, Gemstones Clock, Wall Decor, Teal Decor 
+    image: assets/images/artwork/resin-wall-clock-with-crystals-handmade-clock.jpeg
+    color: "#005983"
+    # dimensions:
+    #   width: 40 centimetres
+    #   height: 39 centimetres
+    
+    short_description: >
+      Wall clock decorated with real gemstones like amethyst, aventurine and malachite. 
+
+    long_description: >
+      <strong>
+       A beautiful and original wall clock decorated with real gemstones like amethyst, aventurine and malachite. The basis of this wall clock is made in wooden panel. The product has a quartz movement. (No battery included) 
+
+  - id: AT0003
+    familly: resin
+    title: Copper & Peach Resin Geode
+    path: resin-fine-art-in-copper-and-peach
+    store: 
+      sumup_link: /product/resin-fine-art-in-golden-and-peach
+    category: Geode
+    tags: Resin Geode, Wall Deor, Peach Decor, Copper Home Decor
+    image: assets/images/artwork/resin-fine-art-in-copper-and-peach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 60 centimetres
+      height: 60 centimetres
+      depth: 3 millimetres
+    short_description: >
+      Original resin peach and copper with gold effects made in wooden board.
+    long_description: >
+      <strong>
+        Original resin peach and copper with gold effects made in wooden board 24inchx24inch. This artwork has a beautiful 3d effect through the gold creatins a different textures to the layers beneath. Resin is smooth glass like finish and wipes clean with a soft cloth.
+
+  - id: AT0004
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Fluid Art Resin Clock with Orquideas
     path: fluid-art-resin-clock-with-orquideas
     store: 
       sumup_link: /product/orquidea-wall-clock
     category: Resin Clock
+<<<<<<< HEAD
     tags: Resin, Clock
     image: assets/images/artwork/fluid-art-resin-clock-with-orquideas.jpeg
     color: "#005983"
@@ -90,6 +151,22 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0005
+=======
+    tags: Resin Clock, Orquideas Wall Clock, Wall Decor
+    image: assets/images/artwork/fluid-art-resin-clock-with-orquideas.jpeg
+    color: "#005983"
+    # dimensions:
+    #   Diameter: 40 centimetres
+ 
+    short_description: >
+      Unique and elegant resin clock with green Orquídeas.
+    long_description: >
+      <strong>
+        Unique and elegant artwork with green Orquídeas. Full of details with green stones, this wall clock will be a perfect addition to your home or will be a perfect gift to someone who loves art and unique pieces. Measure- 40cm in diameter with metal frame.  
+
+  - id: AT0005
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Bamboo Serving/Cutting Board with waves
     path: bamboo-serving-cutting-board-with-waves
     store: 
@@ -98,12 +175,20 @@ products:
     tags: Cutting Board, Board with waves, Bamboo
     image: assets/images/artwork/bamboo-serving-cutting-board-with-waves.jpeg
     color: "#005983"
+<<<<<<< HEAD
     mesures:
+=======
+    dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
       width: 40 centimetres
       height: 28 centimetres
       depth: 1.5 millimetres
     short_description: >
+<<<<<<< HEAD
       Stunning bamboo ocean style board decorated with resin and rich vibrant pigments colours. Made with non toxic, food safe resin.
+=======
+      Stunning bamboo ocean style board decorated with resin, sand and rich vibrant pigments colours. Made with non toxic, food safe resin.
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     long_description: >
       <strong>
         Stunning bamboo ocean style board decorated with resin and rich vibrant pigments colours. Made with non toxic, food safe resin. 
@@ -122,6 +207,7 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0006
+<<<<<<< HEAD
     title: Blue Shades Lagoon
     path: blue-shades-lagoon
     category: Seascape
@@ -186,11 +272,77 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0009
+=======
+    familly: resin
+    title: Blue Shades Lagoon
+    path: blue-shades-lagoon
+    store: 
+      sumup_link: /product/blue-shades-lagoon
+    category: Seascapes
+    tags: Resin Seascape, Ocean Themed, Resin ArtWork, Wall Decor 
+    image: assets/images/artwork/blue-shades-lagoon.jpeg
+    color: "#005983"
+    dimensions:
+      width: 46 centimetres
+      height: 64 centimetres
+      depth: 9 millimetres
+    short_description: >
+      A beautiful resin artwork with bright blue shades and a original shape made in wooden panel.
+    long_description: >
+      <p>
+        Having the sea, at home, office or in your lovely place where you live most of your time, is a great gift for yourself or loved ones. 
+      </p>
+      <p>
+        The art you can see here is a stunning and bright seascape made in a beautiful wooden panel.This artwork showcasing the beauty of the ocean, water and waves.
+      </p>
+
+  - id: AT0007
+    familly: tapestry
+    title: Wall Hanging Tapestry - Chic Bohemian Style
+    path: wall-hanging-tapestry-chic-bohemian-style
+    store: 
+      sumup_link: /product/wall-hanging-tapestry-chic-bohemian-style
+    category: Wall Tapestry
+    tags: Wall Tapestry, Crochet Art, Wall Hanging
+    color: "#005983"
+    # dimensions:
+    #   width: 69 centimetres
+    #   height: 70 centimetres
+  
+    short_description: >
+      This beautiful project represent the harmony of the coral reefs reality, giving you a serenity feeling when you looking at this art tapestry.
+    long_description: >
+      <strong>
+        Neutral colores inspired on the Mediterranean reefs. This beautiful project  represent the harmony of the coral reefs reality, giving you a serenity feeling when you looking at this art tapestry. This luxury artwork create a cosy atmosphere in any room. Handmade wall hanging piece with ancestral techniques, created with high quality wools, baby cotton, fabric and acrylic yarns Each design is unique, made with care and dedication.   Made in smoke and pets free home. Measurements width 69 cm,  height approximately 70cm
+
+  - id: AT0008
+    familly: tapestry
+    title: Wall Hanging Tapestry in Crochet - Salt Caramel
+    path: wall-hanging-tapestry-in-crochet-salt-caramel
+    store: 
+      sumup_link: /product/wall-hanging-tapestry-in-crochet-salt-caramel
+    category: Wall Tapestry
+    tags: Tapestry, Crochet, Crochet Art, Wall Hanging
+    color: "#005983"
+    # dimensions:
+    #   width: 43 centimetres
+    #   height: 75 centimetres
+    
+    short_description: >
+      This beautiful project represent the harmony of the coral reefs reality, giving you a serenity feeling when you looking at this art tapestry.
+    long_description: >
+      <strong>
+        Handmade project, made with selected neutral colours, represent the harmony of the coral reefs, giving you a serenity feeling when you looking at this artwork.Wall hanging piece made with ancestral techniques, created with high quality of wools, baby cotton, fabric, acrylic yarns and natural wood.Each design is unique, made with care and dedication.Made in smoke and pets free home.Measurements width 43cm, height approximately 75cm
+
+  - id: AT0009
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Resin Clock Fluid Art - Black Space
     path: resin-clock-fluid-art-black-space
     store: 
       sumup_link: /product/resin-clock-fluid-art-black-space
     category: Resin Clock
+<<<<<<< HEAD
     tags: Resin
     image: assets/images/artwork/resin-clock-fluid-art-black-space.jpeg
     color: "#005983"
@@ -225,11 +377,28 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0011
+=======
+    tags: Resin Clock, Grey Wall Clock, Wall Clock, Wall Decor
+    image: assets/images/artwork/resin-clock-fluid-art-black-space.jpeg
+    color: "#005983"
+    # dimensions:
+    #   diameter 30 cm
+    short_description: >
+      Uniqueness handmade resin clock / epoxy clock. A original fluid art wall clock. 
+    long_description: >
+      <strong>
+        This beautiful and elegant clock is a fluid art painting, The gold finish and the crystals and stones gives this piece glossy richness and depth. A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. They are a beautiful color and a one of a kind art piece that is used daily. Grab these for yourself, or as a show-stopping gift! Size 30cm
+
+
+  - id: AT0011
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Resin Wall Clock 12" Fluid Art
     path: resin-wall-clock-fluid-art
     store: 
       sumup_link: /product/resin-wall-clock-12-fluid-art
     category: Resin Clock
+<<<<<<< HEAD
     tags: Resin
     image: assets/images/artwork/resin-wall-clock-fluid-art.jpeg
     color: "#005983"
@@ -270,6 +439,30 @@ products:
     tags: Seascape, Ocean on Wall, Resin ArtWork
     image: assets/images/artwork/resin-ocean-art.webp
     # mesures:
+=======
+    tags: Resin Wall Clock, Wall Hanging, Resin Clock
+    image: assets/images/artwork/resin-wall-clock-fluid-art.jpeg
+    color: "#005983"
+    # dimensions:
+    #   diameter: 30 centimetres
+    #    
+    
+    short_description: >
+      Exclusive and handmade wall clock made in wood panel, using high quality resin and pigments.
+    long_description: >
+      <strong>
+        This beautiful and elegant clock is a fluid art painting, The gold finish  and  the crystals and stones gives this piece glossy richness and depth. A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. They are a beautiful color and a one of a kind art piece that is used daily. Grab these for yourself, or as a show-stopping gift!
+        Size 30cm
+
+  - id: AT0013
+    familly: resin
+    title: Resin Ocean Art
+    path: resin-ocean-art
+    category: Seascapes
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/resin-ocean-art.webp
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -282,6 +475,10 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0014
+<<<<<<< HEAD
+=======
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Rustic Cutting Board Olive Wood 40x20cm - Fluid Art
     path: rustic-cutting-board-olive-wood
     store: 
@@ -290,7 +487,11 @@ products:
     tags: Resin
     image: assets/images/artwork/rustic-cutting-board-olive-wood.jpeg
     color: "#005983"
+<<<<<<< HEAD
     # mesures:
+=======
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -303,6 +504,10 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0015
+<<<<<<< HEAD
+=======
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Resin Clock 20" Beach Landscape
     path: resin-clock-beach-landscape
     store: 
@@ -311,7 +516,11 @@ products:
     tags: Resin
     image: assets/images/artwork/resin-clock-beach-landscape.jpeg
     color: "#005983"
+<<<<<<< HEAD
     # mesures:
+=======
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -324,15 +533,27 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0016
+<<<<<<< HEAD
+=======
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Beach Resin 20" Landscape
     path: beach-resin-landscape
     store: 
       sumup_link: /product/beach-resin-20-landscape
+<<<<<<< HEAD
     category: Seascape
     tags: Resin
     image: assets/images/artwork/beach-resin-landscape.jpeg
     color: "#005983"
     # mesures:
+=======
+    category: Seascapes
+    tags: Resin
+    image: assets/images/artwork/beach-resin-landscape.jpeg
+    color: "#005983"
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -345,12 +566,22 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0017
+<<<<<<< HEAD
     title: Underwater Artwork
     path: underwater-artwork
     category: Seascape
     tags: Seascape, Ocean on Wall, Resin ArtWork
     image: assets/images/artwork/underwater-artwork.webp
     # mesures:
+=======
+    familly: resin
+    title: Underwater Artwork
+    path: underwater-artwork
+    category: Seascapes
+    tags: Seascape, Ocean on Wall, Resin ArtWork
+    image: assets/images/artwork/underwater-artwork.webp
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -363,6 +594,10 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0018
+<<<<<<< HEAD
+=======
+    familly: resin
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     title: Elegant Resin Wall Clock fluid art
     path: elegant-resin-wall-clock-fluid-art
     store: 
@@ -371,7 +606,11 @@ products:
     tags: Resin
     image: assets/images/artwork/elegant-resin-wall-clock-fluid-art.jpeg
     color: "#005983"
+<<<<<<< HEAD
     # mesures:
+=======
+    # dimensions:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     #   width: 41 centimetres
     #   height: 60 centimetres
     #   depth: 9 millimetres
@@ -384,6 +623,7 @@ products:
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
 
   - id: AT0019
+<<<<<<< HEAD
     title: Round Gold Resin Geode
     path: round-gold-resin-geode
     category: resin
@@ -616,3 +856,462 @@ products:
         The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
       </strong>
       <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+=======
+    familly: resin
+    title: Round Gold Resin Geode
+    path: round-gold-resin-geode
+    store: 
+      sumup_link: /product/gold-canvas-wall-art-resin-geode-wall-art
+    category: Geode
+    tags: Resin Geode, Geode Wall, Wall Decor
+    image: assets/images/artwork/round-gold-resin-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 41 centimetres
+    short_description: >
+      Gold, white and grey resin abstract painting with decorative glass.
+    long_description: >
+      <strong>
+        Beautiful round canvas geode with gold and silver veins.
+      </strong>
+      <p>
+
+  - id: AT0020
+    familly: resin
+    title: Resin Clock with Real Gemstones and gold butterflies
+    path: resin-clock-fluid-art-with-gold-butterflies
+    store: 
+      sumup_link: /product/fluid-art-resin-clock-with-gold-butterflies
+    category: Resin Clock 
+    tags: Resin Clock, Butterflies Clock, Wall Clock, Wall Decor
+    image: assets/images/artwork/resin-clock-fluid-art-with-gold-butterflies.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 40 centimetres
+    short_description: >
+     This Resin Clock is a great gift for yourself and loved ones. 
+    long_description: >
+      <strong>
+        Unique and elegant artwork with gold butterfly. Full of details with amethyst gemstone, this wall clock will be a perfect addition to your home or will be a perfect gift to someone who loves art and unique pieces.
+      </strong>
+      <p>
+        Measure- 40cm in diameter with metal frame.Makes for a great gift and unique décor piece.
+      </p>
+      <p>
+        high quality harmless resin and pigments, wooden panel circle. Shiny self-levelling finish. Purple ands gold colours combination.
+      </p>
+      <p>
+        I did the colours combination, just to show how could be look, but if you preferred to see your favourite colours, you have look more clocks examples in my shop.
+      </p>
+
+  - id: AT0021
+    familly: resin
+    title: Resin wooden box - green fluid art
+    path: resin-wooden-box-green-fluid-art
+    store: 
+      sumup_link: /product/resin-wooden-box-green-fluid-art
+    category: Jewellery Box
+    tags: Jewellery Box, Resin Trinket, Jewellry Holder, Jewellery Organiser
+    image: assets/images/artwork/resin-wooden-box-green-fluid-art.jpeg
+    color: "#005983"
+    dimensions:
+      width: 21 centimetres
+      height: 6 centimetres
+    short_description: >
+      Exclusive handmade jewellery wooden box, made using high quality resin and pigments.
+    long_description: >
+      <p>
+        This beautiful and elegant box is a fluid art painting. The glass and stones gives this piece glossy richness and depth. Inside is covered with a soft, durable, water-resistant and beautiful royal blue velvet adhesive. A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. They are a beautiful color and a one of a kind art piece that is used daily. Grab these for yourself, or as a show-stopping gift!
+      </p>
+
+  - id: AT0027
+    familly: resin
+    title: 3D Resin Wooden Black Jewellery Box
+    path: resin-wooden-black-jewellery-box-3d
+    store: 
+      sumup_link: /product/black-wooden-3d-resin-jewellery-box
+    category: Jewellery Box
+    tags: Jewellery Box, Jewellery
+    image: assets/images/artwork/resin-wooden-black-jewellery-box-3d.jpeg
+    color: "#005983"
+    dimensions:
+      width: 20 centimetres
+      height: 13 centimetres
+    short_description: >
+      Beautiful and elegant black wooden box with lock.
+    long_description: >
+      <strong>
+       This rectangular wooden box with three internal compartments is decorated with high quality materials.
+       A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. 
+      </strong>
+      <p>Grab these for yourself, or as a show-stopping gift!</p>
+
+  - id: AT0029
+    familly: resin
+    title: 3D Resin Ocean Clock
+    path: resin-ocean-clock-3d
+    store: 
+      sumup_link: /product/resin-beach-clock-custom-ocean-theme
+    category: Resin Clock
+    tags: Clock, Resin Clock, Ocean Lovers, Wall Decor
+    image: assets/images/artwork/resin-ocean-clock-3d.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 35 centimetres
+    short_description: >
+      Exclusive Beach Landscape Resin using high quality resin, pigments, rocks and sand.
+    long_description: >
+      <strong>
+        A stunning landscape with a boat on the ocean that will gives a finish detail and depth. A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. They are a beautiful colour and a one of a kind art piece that is used daily. Grab these for yourself, or as a show-stopping gift!
+      </strong>
+      <p>This is made by hand and during the curing process some small imperfections may occur (small dust particles, tiny air bubbles, little dimples etc). Please be aware this is homemade art work, not made in factory. If you have any additional questions, please feel free to contact me</p>
+
+  - id: AT0030
+    familly: resin
+    title: Resin 3D island in Wooden Log Slice
+    path: resin-3d-island-in-wooden-log-slice
+    store: 
+      sumup_link: /product/resin-3d-island-in-wooden-log-slice
+    category: Seascapes
+    tags: Resin, Wood Log Artwork, Ocean Lovers
+    image: assets/images/artwork/resin-3d-island-in-wooden-log-slice.jpeg
+    color: "#005983"
+    # dimensions:
+    #   diameter: 33 centimetres
+    short_description: >
+      The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden log.
+    long_description: >
+      <p>
+        Are you looking for a unique and beautiful artwork to add flair to your home decor, this island seascape art is perfect for you. 
+      </p>
+      <p>
+        It will bring the feel of the ocean right into your living room. Your guests will be attracted from a distance to come and admire this unique piece of seascape art. 
+        Carefully sculpted and painted rocks that emerge above the ocean level look simply stunning.
+      </p>
+
+  - id: AT0031
+    familly: resin
+    title: Resin Beach Landscape in Canvas
+    path: resin-beach-landscape-in-canvas
+    store: 
+      sumup_link: /product/resin-beach-canvas-painting-ocean-waves-resin-seascape
+    category: Seascapes
+    tags: Resin, Resin Beach, Ocean Lovers, Wall Decor
+    image: assets/images/artwork/resin-beach-landscape-in-canvas.jpeg
+    color: "#005983"
+    dimensions:
+      width: 100 centimetres
+      height: 50 centimetres
+      depth: 7 millimetres
+    short_description: >
+      Realistic seascape.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones.
+        Realistic seascape.
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0032
+    familly: resin
+    title: 3D Gold and Wine Wooden Box With 3 Compartments
+    path: 3D-Gold-and-Wine-Wooden-Box-With-3-Compartments
+    store: 
+      sumup_link: /product/3d-gold-wine-wooden-box-with-3-compartment
+    category: Jewellery Box
+    tags: Resin Trinket, Box Organiser, Box Holder
+    image: assets/images/artwork/3D-Gold-and-Wine-Wooden-Box-With-3-Compartments.jpeg
+    color: "#005983"
+    dimensions:
+      width: 20 centimetres
+      height: 13 centimetres
+    short_description: >
+      Gold and red colours in a wooden box with lock...
+    long_description: >
+      <strong>
+        This rectangular wooden box with three internal compartments is decorated with high quality materials. 
+        A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones.
+      </strong>
+      <p>Grab these for yourself, or as a show-stopping gift!</p>
+
+  - id: AT0033
+    familly: resin
+    title: Blue Heart Wooden Box
+    path: blue-heart-wooden-box
+    store: 
+      sumup_link: /product/blue-heart-wooden-box
+    category: Jewellery Box
+    tags: Resin Trinket, Box Organiser, Box Holder
+    image: assets/images/artwork/blue-heart-wooden-box.jpeg
+    color: "#005983"
+    dimensions:
+      width: 21 centimetres
+    short_description: >
+      Blue wooden box with heart shape.
+    long_description: >
+      <strong>
+        Beautiful wooden box with glass and stones.
+      </strong>
+      <p>Grab these for yourself, or as a show-stopping gift!</p>
+
+  - id: AT0034
+    familly: resin
+    title: Black and Gold Resin Chopping Board
+    path: black-gold-resin-chopping-board
+    store: 
+      sumup_link: /product/black-and-gold-resin-chopping-board
+    category: Serving Cutting Board
+    tags: Serving Cutting Board, Chopping Board, Serving Board, Kitchen Acessories
+    image: assets/images/artwork/black-gold-resin-chopping-board.jpeg
+    color: "#005983"
+    dimensions:
+      width: 22 centimetres
+      height: 32 centimetres
+    short_description: >
+      Stunning style charcuterie board. Each board is completely unique. A beautiful statement piece for any kitchen.
+    long_description: >
+      <strong>
+        These wooden beautiful board is fully functional. Use the bare wood as a charcuterie board to display meat, cheeses and other condiments. Use to display home decor or candles!
+      </strong>
+      <p>This is no longer available but in 1 week I can do a similar design.</p>
+
+  - id: AT0035
+    familly: resin
+    title: Resin Art, 3D Ocean Sea, Seascape Beach
+    path: Resin Art-3D-Ocean-Sea-Seascape Beach
+    store: 
+      sumup_link: /product/resin-art-3d-ocean-sea-seascape-beach
+    category: Seascapes
+    tags: Ocean, 3D Beach, Resin Art, Ocean Lovers
+    image: assets/images/artwork/resin-art-3d-ocean-sea-seascape-beach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 42 centimetres
+      height: 30 centimetres
+    short_description: >
+      3D resin landscape full of details. Reef coral underwater with boat stuck in the shore....
+    long_description: >
+      <strong>
+        This item was sold but I can do another similar one.Please allow 1-2 weeks for me to create your artwork, especially larger work. Resin cures slow, beside that I work in multiple layers.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves.</p>
+
+  - id: AT0036
+    familly: resin
+    title: Amethyst Geode Resin
+    path: amethyst-geode-resin
+    store: 
+      sumup_link: /product/amethyst-geode-resin
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/amethyst-geode-resin.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 50 centimetres
+    short_description: >
+      This luxurious and elegante piece is gorgeous with four clusters of “crystals” made of epoxy resin crystal nestled throughout with glass, stones and acrylic. 
+    long_description: >
+      <strong>
+        The artist edge flows as a continuation giving this piece an artistic feel.
+      </strong>
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
+      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p> 
+
+  - id: AT0032
+    familly: resin
+    title: Black & Gold Resin Geode
+    path: black-&-gold-resin-geode
+    store: 
+      sumup_link: /product/black-and-gold-resin-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/black-&-gold-resin-geode.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 50 centimetres
+    short_description: >
+      Elegante and luxurious piece beautifully reflective with large cluster of crystals in the middle area and crystals points. The artist edge flows as a continuation giving this piece an artistic feel.
+    long_description: >
+      <strong>
+        The artist edge flows as a continuation giving this piece an artistic feel.
+      </strong>
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
+      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
+
+  - id: AT0037
+    familly: resin
+    title: Gold&Green Resin geode
+    path: gold-&-green-esin-geode
+    store: 
+      sumup_link: /product/gold-and-green-resin-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/gold-&-green-esin-geode.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 50 centimetres
+    short_description: >
+      This luxurious and elegant piece is gorgeous full of “crystals” clusters made of epoxy resin crystal nestled throughout with glass, stones and acrylic. The artist edge flows as a continuation giving this piece an artistic feel.
+    long_description: >
+      <strong>
+        The artist edge flows as a continuation giving this piece an artistic feel.
+      </strong>
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
+      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
+
+  - id: AT0038
+    familly: resin
+    title: Crystal Heart Resin Geode
+    path: crystal-heart-resin-geode
+    store: 
+      sumup_link: /product/crystal-heart-resin-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/crystal-heart-resin-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 50 centimetres
+    short_description: >
+      Spread the love with this luxury artwork with a huge crystal heart shape, and beautiful crystal clusters made of epoxy resin crystal.
+    long_description: >
+      <strong>
+        The artist edge flows as a continuation giving this piece an artistic feel.
+      </strong>
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
+      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
+
+  - id: AT0039
+    familly: resin
+    title: Ocean Seascape set Of 2
+    path: ocean-seascape-set-of-2
+    store: 
+      sumup_link: /product/ocean-seascape-set-of-2
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/ocean-seascape-set-of-2.jpeg
+    color: "#005983"
+    dimensions:
+      width: 30 centimetres
+      height: 30 centimetres
+    short_description: >
+      Original painting set of two.
+    long_description: >
+      <strong>
+       3D Ocean in two frames, the perfect wall art for you living  room  decor. You can buy as a home gifts, as a Christmas gift or even for a New Housewarming gift.
+       <p> This artwork is no longer available, please aloud me 1 week to make a similar one. SET OF TWO 3D Resin Artwork in 2 separated white frames. A stunning masterpiece to decorate your house.
+      </p>
+
+  - id: AT0040
+    familly: resin
+    title: 3D Resin Beach
+    path: 3D-resin-beach
+    store: 
+      sumup_link: /product/ocean-seascape-set-of-2
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/3D-resin-beach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 35 centimetres
+      height: 35 centimetres
+    
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>
+
+  - id: AT0041
+    familly: resin
+    title: Stingrays family in the ocean
+    path: stingrays-family-in-the-ocean
+    store: 
+      sumup_link: /product/stingrays-family-in-the-ocean
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/stingrays-family-in-the-ocean.jpeg
+    color: "#005983"
+    dimensions:
+      width: 42 centimetres
+      height: 30 centimetres
+    
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        Original and unique painting that will bring a spark of life to your lovely home/ office.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>
+
+  - id: AT0042
+    familly: resin
+    title: 3D Resin Beach
+    path: 3D-resin-beach
+    store: 
+      sumup_link: /product/ocean-seascape-set-of-2
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/3D-resin-beach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 35 centimetres
+      height: 35 centimetres
+    
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>
+
+  - id: AT0043
+    familly: resin
+    title: 3D Resin Beach
+    path: 3D-resin-beach
+    store: 
+      sumup_link: /product/ocean-seascape-set-of-2
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/3D-resin-beach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 35 centimetres
+      height: 35 centimetres
+    
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>
+
+  - id: AT0044
+    familly: resin
+    title: 3D Resin Beach
+    path: 3D-resin-beach
+    store: 
+      sumup_link: /product/ocean-seascape-set-of-2
+    category: Seascapes
+    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
+    image: assets/images/artwork/3D-resin-beach.jpeg
+    color: "#005983"
+    dimensions:
+      width: 35 centimetres
+      height: 35 centimetres
+    
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>                        
+>>>>>>> 5b7e0c3 (update gallery and artwork)

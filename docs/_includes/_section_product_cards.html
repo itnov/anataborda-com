@@ -1,0 +1,38 @@
+<!-- cards -->
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="{{ product_group.name | downcase  | replace: ' ', '' }}" class="section-title">{{ product_group.name }}</h2>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="row">
+        {% for product in product_group.items %}
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <a href="/{{ page.url | replace: '/', '' }}{{ product.path | relative_url }}">
+            <div class="card-art text-white card-has-bg click-col" 
+                 style="background-image:url('{{ product.image | relative_url }}');">
+                <img class="card-img d-none" src="{{ product.image | relative_url }}" 
+                     alt="{{ product.title }}">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="card-body">
+                    <small class="card-title mb-2">
+                      {{ product.title }}
+                    </small>
+                    <h4 class="card-info mt-0 ">
+                      {{ product.tags }}
+                    </h4>
+                  </div>
+                </div>
+            </div>
+          </a>
+        </div> 
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!-- /cards -->

@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+
+resin_categories:
+  seascapes:
+    image: assets/images/artwork/resin/seascape.webp
+    description: some description
+  resinclock: 
+    image: assets/images/artwork/resin/resinclock.jpeg
+    description: some description 
+  geode: 
+    image: assets/images/artwork/resin/geode.jpeg
+    description: some description
+  servingcuttingboard: 
+    image: assets/images/artwork/resin/servingcuttingboard.jpeg
+    description: some description 
+  jewellerybox: 
+    image: assets/images/artwork/resin/jewellerybox.jpeg
+    description: some description 
+  agateslice: 
+    image: assets/images/artwork/resin/agateslice.jpeg
+    description: some description
+
+
+>>>>>>> 5b7e0c3 (update gallery and artwork)
 categories:
   - Seascape
   - Fine Art

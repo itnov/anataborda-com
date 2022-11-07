@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 <!-- blog -->
+=======
+{% assign products_by_category = site.data.artwork.products | where: "category", product.category | sample: 3 %}
+
+>>>>>>> 5b7e0c3 (update gallery and artwork)
 <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
+<<<<<<< HEAD
           <h2 class="section-title">Similar Stories</h2>
         </div>
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
@@ -48,3 +54,35 @@
     </div>
   </section>
   <!-- /blog -->
+=======
+          <h2 class="section-title">Similar Artwork</h2>
+        </div>
+
+        {% for similar_product in products_by_category %}
+        {% if similar_product.id != product.id %}
+        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+          <a href="{{ page.dir }}{{ similar_product.path | relative_url }}">
+          <article class="card shadow">
+            {% if similar_product.image %}
+            <img class="rounded card-img-top" 
+              src="{{ similar_product.image | relative_url }}" 
+              alt="{{ similar_product.title }}">
+            {% endif %}
+            <div class="card-body">
+              <h4 class="card-title">
+                {{ similar_product.title }}
+              </h4>
+              <p class="cars-text">
+                {{ similar_product.short_description }}
+              </p>
+            </div>
+          </article>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>
+>>>>>>> 5b7e0c3 (update gallery and artwork)

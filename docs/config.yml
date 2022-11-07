@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
+=======
+baseurl: "/anataborda.com"
+>>>>>>> 5b7e0c3 (update gallery and artwork)
 url: https://www.anataborda.com
 title: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
 description: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
@@ -6,7 +10,7 @@ description: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
 remote_theme: pages-themes/slate@v0.2.0
 
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
 
 theme: jekyll-theme-slate
 
@@ -29,7 +33,13 @@ breadcrumbs:
     image: false # Show image or title text
 
 collections:
+<<<<<<< HEAD
   artwork:
+=======
+  wall-tapestry:
+    output: true  
+  resin-artwork:
+>>>>>>> 5b7e0c3 (update gallery and artwork)
     output: true  
   gallery:
     output: true

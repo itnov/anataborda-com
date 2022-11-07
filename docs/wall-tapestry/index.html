@@ -1,0 +1,42 @@
+---
+layout: default
+title: Wall Tapestry
+page.title: Wall Tapestry
+---
+{% assign products_by_category = site.data.artwork.products | where: "familly", "tapestry" | group_by: 'category' %}
+
+{% include _header_pagetitle_a.html %}
+
+{% for product_group in products_by_category %}
+  {% if site.data.config.gallery.template == "portfolio" %}
+    {% include _section_product_group.html product_group=product_group %}
+  {% else %}
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">{{ product_group.name }}</h2>
+          </div>
+          {% for product in product_group.items %}
+          <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <a href="/wall-tapestry{{ product.path | relative_url }}">
+              {% if product.image %}
+              <img src="{{ product.image | relative_url }}" alt="{{ product.title }}" class="img-fluid rounded">
+              {% else %}
+              <div class="position-relative rounded-top progress-wrapper" data-color="{{ product.color }}">
+                <div class="wave" data-progress="90%"></div>
+              </div>
+              {% endif %}
+            </a>
+              <div class="card-footer bg-white">
+                <h4 class="card-title"><a href="/wall-tapestry{{ product.path | relative_url }}">{{ product.title }}</a></h4>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+    </div>
+    </div>
+    </section>
+  {% endif %}
+{% endfor %}
