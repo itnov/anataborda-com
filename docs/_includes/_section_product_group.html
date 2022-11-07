@@ -28,7 +28,7 @@
               {{ product.tags }}
             </small>
             <h4 class="card-title mb-2">
-              <a href="/{{ page.url | replace: '/', '' }}{{ product.path | relative_url }}">{{ product.title }}</a>
+              <a href="{{ site.baseurl | prepend: site.url }}{{ page.url }}{{ product.path }}">{{ product.title }}</a>
             </h4>
           </div>
         </div>

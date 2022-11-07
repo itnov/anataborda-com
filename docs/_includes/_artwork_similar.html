@@ -10,7 +10,7 @@
         {% for similar_product in products_by_category %}
         {% if similar_product.id != product.id %}
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <a href="{{ page.dir }}{{ similar_product.path | relative_url }}">
+          <a href="{{ site.baseurl | prepend: site.url }}{{ page.url }}{{ similar_product.path }}">
           <article class="card shadow">
             {% if similar_product.image %}
             <img class="rounded card-img-top" 
