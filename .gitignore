@@ -5,3 +5,7 @@ old
 node_modules/
 package-lock.json
 package.json
+src/artwork/
+src/css/
+src/data/
+src/site-doc.txt
