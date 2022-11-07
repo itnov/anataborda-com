@@ -1,6 +1,10 @@
+
 baseurl: "/anataborda.com"
-url: https://www.anataborda.com
+
+url: https://itnov.github.io
+
 title: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
+
 description: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
 
 remote_theme: pages-themes/slate@v0.2.0
@@ -16,8 +20,7 @@ keep_files: [CNAME, .git]
 
 gems:
 - jekyll-github-metadata
-- jekyll-redirect-from
--     
+- jekyll-redirect-from      
 
 foo: bar
 
