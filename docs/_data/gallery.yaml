@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 resin_categories:
   seascapes:
@@ -22,7 +20,6 @@ resin_categories:
     description: some description
 
 
->>>>>>> 5b7e0c3 (update gallery and artwork)
 categories:
   - Seascape
   - Fine Art

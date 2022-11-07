@@ -2,20 +2,6 @@
 <section class="section">
     <div class="container">
       <div class="row">
-<<<<<<< HEAD
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{ product_group.name }}</h2>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        {% for product in product_group.items %}
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="{{ product.image | relative_url }}" alt="{{ product.title }}" class="img-fluid rounded w-100">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/artwork{{ product.path | relative_url }}">
-=======
         <h2 id="{{ product_group.name | downcase  | replace: ' ', '' }}" 
             class="section-title col-12 text-center">{{ product_group.name }}</h2>
       </div>
@@ -32,14 +18,11 @@
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" 
                    href="/{{ page.url | replace: '/', '' }}{{ product.path | relative_url }}">
->>>>>>> 5b7e0c3 (update gallery and artwork)
                   {{ product.title }}
                 </a>
               </div>
             </div>
           </div>
-<<<<<<< HEAD
-=======
           <div class="position-relative">
             <small class="card-info mt-0 ">
               {{ product.tags }}
@@ -48,7 +31,6 @@
               <a href="/{{ page.url | replace: '/', '' }}{{ product.path | relative_url }}">{{ product.title }}</a>
             </h4>
           </div>
->>>>>>> 5b7e0c3 (update gallery and artwork)
         </div>
         {% endfor %}
       </div>

@@ -16,12 +16,8 @@ form_order:
   message: Details about the Artwork you looking to order, dimensions, colours, any reference you have seen in my portfolio
 
 gallery:
-<<<<<<< HEAD
-  template: portfolio # list
-=======
   # template: cards
   template: portfolio
->>>>>>> 5b7e0c3 (update gallery and artwork)
 
 nav_links:
   # - title: Home Decor
@@ -34,16 +30,11 @@ nav_links:
   # - title: Gallery
   #   url: /gallery
 
-<<<<<<< HEAD
-  - title: Artwork
-    url: /artwork
-=======
   - title: Resin Artwork
     url: /resin-artwork
 
   - title: Wall Tapestry
     url: /wall-tapestry
->>>>>>> 5b7e0c3 (update gallery and artwork)
 
   # - title: Events
   #   url: /events
@@ -51,12 +42,9 @@ nav_links:
   #- title: Order-Artwork
   #  url: /Order-Artwork
 
-<<<<<<< HEAD
-=======
   # - title: portfolio
   #   url: /portfolio
 
->>>>>>> 5b7e0c3 (update gallery and artwork)
   - title: Social Networks
     url: /social-networks
 

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-baseurl: "" # the subpath of your site, e.g. /blog
-=======
 baseurl: "/anataborda.com"
->>>>>>> 5b7e0c3 (update gallery and artwork)
 url: https://www.anataborda.com
 title: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
 description: "Ana Taborda Art, Resin and Wall Tapestry, UK London"
@@ -33,13 +29,9 @@ breadcrumbs:
     image: false # Show image or title text
 
 collections:
-<<<<<<< HEAD
-  artwork:
-=======
   wall-tapestry:
     output: true  
   resin-artwork:
->>>>>>> 5b7e0c3 (update gallery and artwork)
     output: true  
   gallery:
     output: true
