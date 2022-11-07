@@ -11,7 +11,7 @@
           {% for nav_link in site.data.config.nav_links %}
           <li class="nav-item{% if page.url contains nav_link.url %} active{% endif %}">
             <a class="nav-link" 
-               href="{{ nav_link.url | relative_url }}" 
+               href="{{ site.baseurl | prepend: site.url | append: nav_link.url }}" 
                data-url="{{ page.url }}" {% if nav_link.target %} 
                target="{{ nav_link.target }}"{% endif %}>{{ nav_link.title }}
             </a>
