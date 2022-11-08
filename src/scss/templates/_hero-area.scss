@@ -1,9 +1,15 @@
 .hero-area {
-  padding: 300px 0 200px;
-  position: relative;
+  padding: 12px 0 12px;
+  background-image: url('/assets/images/illustrations/etsy-header-large.jpg');
+  background-attachment: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   @include tablet {
-    padding: 250px 0 150px;
+    padding: 12px 0 12px;
     overflow: hidden;
+    background-size: auto;
   }
   h1{
     position: relative;

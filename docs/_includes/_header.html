@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
   
-      <div class="collapse navbar-collapse text-center" id="navigation">
+      <div class="collapse navbar-collapse" id="navigation">
         <ul class="navbar-nav ml-auto">
           {% for nav_link in site.data.config.nav_links %}
           <li class="nav-item{% if page.url contains nav_link.url %} active{% endif %}">

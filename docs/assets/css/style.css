@@ -325,12 +325,17 @@ textarea.form-control {
   color: #ffffff; }
 
 .hero-area {
-  padding: 300px 0 200px;
-  position: relative; }
+  padding: 12px 0 12px;
+  background-image: url("/assets/images/illustrations/etsy-header-large.jpg");
+  background-attachment: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media (max-width: 767px) {
     .hero-area {
-      padding: 250px 0 150px;
-      overflow: hidden; } }
+      padding: 12px 0 12px;
+      overflow: hidden;
+      background-size: auto; } }
   .hero-area h1 {
     position: relative;
     z-index: 2; }
@@ -519,7 +524,7 @@ textarea.form-control {
 /* /testimonial */
 /* footer */
 .footer-section {
-  padding-top: 200px; }
+  padding-top: 40px; }
 
 .section-on-footer {
   margin-bottom: -250px; }
