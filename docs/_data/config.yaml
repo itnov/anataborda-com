@@ -10,7 +10,7 @@ store_sumup:
   link: https://anataborda.sumup.link
 
 form_order:
-  post_url: https://us-central1-www-contact-335615.cloudfunctions.net/order-art
+  post_url: https://www-contact-335615.uc.r.appspot.com/order/artwork
   title: Contact for new ArtWork Order
   name: Full Name
   email: Email Address
