@@ -193,7 +193,6 @@ products:
       <strong>
         This beautiful and elegant clock is a fluid art painting, The gold finish and the crystals and stones gives this piece glossy richness and depth. A wonderful eye-catching statement piece in your home, or a stunning gift for your loved ones. They are a beautiful color and a one of a kind art piece that is used daily. Grab these for yourself, or as a show-stopping gift! Size 30cm
 
-
   - id: AT0011
     familly: resin
     title: Resin Wall Clock 12" Fluid Art
@@ -601,27 +600,6 @@ products:
       <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
       <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p> 
 
-  - id: AT0032
-    familly: resin
-    title: Black & Gold Resin Geode
-    path: black-&-gold-resin-geode
-    store: 
-      sumup_link: /product/black-and-gold-resin-geode
-    category: Geode
-    tags: Resin Geode, Crystal Art, Wall Decor
-    image: assets/images/artwork/black-&-gold-resin-geode.jpeg
-    color: "#005983"
-    dimensions:
-      diameter: 50 centimetres
-    short_description: >
-      Elegante and luxurious piece beautifully reflective with large cluster of crystals in the middle area and crystals points. The artist edge flows as a continuation giving this piece an artistic feel.
-    long_description: >
-      <strong>
-        The artist edge flows as a continuation giving this piece an artistic feel.
-      </strong>
-      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
-      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
-
   - id: AT0037
     familly: resin
     title: Gold&Green Resin geode
@@ -799,3 +777,24 @@ products:
       </strong>
       <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
       </p>                        
+
+  - id: AT0045
+    familly: resin
+    title: Black & Gold Resin Geode
+    path: black-and-gold-resin-geode
+    store: 
+      sumup_link: /product/black-and-gold-resin-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/black-and-gold-resin-geode.jpeg
+    color: "#005983"
+    dimensions:
+      diameter: 50 centimetres
+    short_description: >
+      Elegante and luxurious piece beautifully reflective with large cluster of crystals in the middle area and crystals points. The artist edge flows as a continuation giving this piece an artistic feel.
+    long_description: >
+      <strong>
+        The artist edge flows as a continuation giving this piece an artistic feel.
+      </strong>
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
+      <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
