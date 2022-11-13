@@ -833,9 +833,9 @@ blockquote {
     background: linear-gradient(0deg, rgba(35, 79, 109, 0.378589) 0%, #455f71 100%); }
 
 .contact-section .status-invalid {
-  color: pink;
+  color: #f38c9d;
   font-weight: 400; }
 
 .contact-section .status-valid {
-  color: #5fc24b;
+  color: #3f972d;
   font-weight: 400; }

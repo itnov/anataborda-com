@@ -107,24 +107,24 @@ function formContactSubmit(event){
     event.preventDefault();
 
     var form = $(event.target.closest('form'));
-    form.closest("form-status").removeClass('status-invalid')
+    $(".form-status").removeClass('status-invalid')
 
     if (!form[0].checkValidity()) {
-        form.closest("form-status").addClass('status-invalid');
+        $(".form-status").addClass('status-invalid');
         return;
     }
-    
+
+    $(".form-status").removeClass('status-invalid');
     $.ajax({
         type: "POST",
         url: form.attr("action"),
         data: form.serialize(),
         success: function (data) {
             form[0].reset();
-            form.closest("form-status").addClass('status-valid');
+            $(".form-status").addClass('status-valid');
         },
         error: function (data) {
             form[0].reset();
-            form.closest("form-status").addClass('status-invalid');
         }
     });
 }
