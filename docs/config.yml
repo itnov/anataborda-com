@@ -14,8 +14,6 @@ plugins:
 
 theme: jekyll-theme-slate
 
-google_analytics: 1234
-
 keep_files: [CNAME, .git]
 
 gems:
