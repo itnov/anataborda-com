@@ -521,13 +521,12 @@ textarea.form-control {
   right: 200px;
   bottom: -50px; }
 
-/* /testimonial */
 /* footer */
 .footer-section {
   padding-top: 40px; }
 
 .section-on-footer {
-  margin-bottom: -250px; }
+  margin-bottom: -130px; }
 
 .shadow-down {
   position: relative; }
@@ -832,3 +831,11 @@ blockquote {
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
     background: #c5d5e0;
     background: linear-gradient(0deg, rgba(35, 79, 109, 0.378589) 0%, #455f71 100%); }
+
+.contact-section .status-invalid {
+  color: pink;
+  font-weight: 400; }
+
+.contact-section .status-valid {
+  color: #5fc24b;
+  font-weight: 400; }

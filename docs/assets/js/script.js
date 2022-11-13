@@ -107,23 +107,26 @@ function formContactSubmit(event){
     event.preventDefault();
 
     var form = $(event.target.closest('form'));
+    form.closest("form-status").removeClass('status-invalid')
+
     if (!form[0].checkValidity()) {
+        form.closest("form-status").addClass('status-invalid');
         return;
     }
     
     $.ajax({
         type: "POST",
-        url: form.attr("data-action"),
+        url: form.attr("action"),
         data: form.serialize(),
         success: function (data) {
-            console.log('Submission was successful.');
-            console.log(data);
+            form[0].reset();
+            form.closest("input").hide();
+            form.closest('Submission was successful.').hide();
+            form.closest("form-status").addClass('status-valid');
         },
         error: function (data) {
-            console.log('An error occurred.');
-            console.log(data);
+            form[0].reset();
+            form.closest("form-status").addClass('status-invalid');
         }
     });
-
-    // form[0].reset();
 }

@@ -245,5 +245,13 @@
     
 }
 
-.shuffle-item {
+.shuffle-item {}
+
+.contact-section {
+    .status-invalid {
+        color: pink; font-weight: 400;
+    }
+    .status-valid {
+        color: rgb(95, 194, 75); font-weight: 400; 
+    }
 }

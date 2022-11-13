@@ -1,27 +1,37 @@
 <!-- contact -->
-<section class="section section-on-footer"
+<section class="section section-on-footer contact-section"
   data-background="{{ 'assets/images/backgrounds/bg-dots.png' | relative_url }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">{{ site.data.config.form_order.title | default: 'Contact form' }}</h4>
-          <form data-action="{{ site.data.config.form_order.post_url | default: '/' }}" 
-                class="row" id="form-contact">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="{{ site.data.config.form_order.name | default: 'Full Name' }}"
-                class="form-control px-0 mb-4" required>
+          <form action="{{ site.data.config.form_order.post_url | default: '/' }}" 
+                class="row" id="form-contact" method="post">
+            <div class="col-md-6 input">
+              <input type="text" id="name" name="name" 
+                     placeholder="{{ site.data.config.form_order.name | default: 'Full Name' }} *"
+                     class="form-control px-0 mb-4" 
+                     required>
             </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="{{ site.data.config.form_order.email | default: 'Email Address' }}"
-                class="form-control px-0 mb-4" required>
+            <div class="col-md-6 input">
+              <input type="email" id="email" name="email" 
+                     placeholder="{{ site.data.config.form_order.email | default: 'Email Address' }} *"
+                     class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12 input">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="{{ site.data.config.form_order.message | default: 'Type Message Here' }} *" 
+                required></textarea>
             </div>
             <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="{{ site.data.config.form_order.message | default: 'Type Message Here' }}" required></textarea>
+              <span class="form-status">All fields marked with * are required.</span><br>
+              <p><small>Please include email or phone to contact you back with response.</small></p>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button id="form-contact-btn" onclick="formContactSubmit(event)" class="btn btn-dark btn-lg">send</button>
+              <button id="form-contact-btn" 
+                      onclick="formContactSubmit(event)" 
+                      class="btn btn-dark btn-lg">send</button>
             </div>
           </form>
         </div>
