@@ -120,8 +120,6 @@ function formContactSubmit(event){
         data: form.serialize(),
         success: function (data) {
             form[0].reset();
-            form.closest("input").hide();
-            form.closest('Submission was successful.').hide();
             form.closest("form-status").addClass('status-valid');
         },
         error: function (data) {
