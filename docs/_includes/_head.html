@@ -2,22 +2,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   {% assign site_config = site.data.config.site %}
+
   <title>{{ page.head.title }}</title>
   <meta name="description" content="{{ page.head.description }}">
   
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="{{ 'assets/images/favicon.png' | relative_url }}" />
+  <link rel="shortcut icon" type="image/x-icon" 
+        href="{{ site.baseurl | prepend: site.url | append: '/assets/images/favicon.png' }}" />
 
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="{{ 'assets/plugins/bootstrap/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" 
+        href="{{ site.baseurl | prepend: site.url | append: '/assets/plugins/bootstrap/bootstrap.min.css' }}">
+  
   <!-- slick slider -->
-  <link rel="stylesheet" href="{{ 'assets/plugins/slick/slick.css' | relative_url }}">
+  <link rel="stylesheet" 
+        href="{{ site.baseurl | prepend: site.url | append: '/assets/plugins/slick/slick.css' }}">
+
   <!-- themefy-icon -->
-  <link rel="stylesheet" href="{{ 'assets/plugins/themify-icons/themify-icons.css' | relative_url }}">
+  <link rel="stylesheet" 
+        href="{{ site.baseurl | prepend: site.url | append: '/assets/plugins/themify-icons/themify-icons.css' }}">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" 
+        href="{{ site.baseurl | prepend: site.url | append: '/assets/css/style.css' }}">
 
   <!-- Open Graph protocol -->
   {% if page.head.og %}

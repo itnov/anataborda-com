@@ -668,7 +668,7 @@ products:
     title: 3D Resin Beach
     path: 3D-resin-beach
     store: 
-      sumup_link: /product/ocean-seascape-set-of-2
+      sumup_link: /product/3d-resin-beach
     category: Seascapes
     tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
     image: assets/images/artwork/3D-resin-beach.jpeg
@@ -708,76 +708,7 @@ products:
       </strong>
       <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
       </p>
-
-  - id: AT0042
-    familly: resin
-    title: 3D Resin Beach
-    path: 3D-resin-beach
-    store: 
-      sumup_link: /product/ocean-seascape-set-of-2
-    category: Seascapes
-    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
-    image: assets/images/artwork/3D-resin-beach.jpeg
-    color: "#005983"
-    dimensions:
-      width: 35 centimetres
-      height: 35 centimetres
-    
-    short_description: >
-      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
-    long_description: >
-      <strong>
-        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
-      </strong>
-      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
-      </p>
-
-  - id: AT0043
-    familly: resin
-    title: 3D Resin Beach
-    path: 3D-resin-beach
-    store: 
-      sumup_link: /product/ocean-seascape-set-of-2
-    category: Seascapes
-    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
-    image: assets/images/artwork/3D-resin-beach.jpeg
-    color: "#005983"
-    dimensions:
-      width: 35 centimetres
-      height: 35 centimetres
-    
-    short_description: >
-      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
-    long_description: >
-      <strong>
-        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
-      </strong>
-      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
-      </p>
-
-  - id: AT0044
-    familly: resin
-    title: 3D Resin Beach
-    path: 3D-resin-beach
-    store: 
-      sumup_link: /product/ocean-seascape-set-of-2
-    category: Seascapes
-    tags: Ocean, 3D Artwork, Resin Ocean, Ocean Lovers
-    image: assets/images/artwork/3D-resin-beach.jpeg
-    color: "#005983"
-    dimensions:
-      width: 35 centimetres
-      height: 35 centimetres
-    
-    short_description: >
-      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
-    long_description: >
-      <strong>
-        The sea is a great gift for yourself and loved ones. Colours could sometimes distorted depending on monitor screens, can differ from mobile devices and tablets too. Happy to send more photos/videos if you prefer.
-      </strong>
-      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
-      </p>                        
-
+                    
   - id: AT0045
     familly: resin
     title: Black & Gold Resin Geode
