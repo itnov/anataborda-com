@@ -779,3 +779,116 @@ products:
       </strong>
       <p>Made from a wooden panel with pigment pastes, mica powders, acrylic paints, glitter, crushed glass and epoxy clear crystals.</p>
       <p> Measurements: height: 22.5inch / 57cm width: 13.5 inch / 34cm. Ready to hang</p>
+                          
+  - id: AT0048
+    familly: resin
+    title: Blue Galaxy Geode
+    path: blue-galaxy-geode
+    store: 
+      sumup_link: /product/blue-galaxy-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/blue-galaxy-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 20 centimetres
+      height: 20 centimetres
+    short_description: >
+      One of a kind geode artwork that will add a luxury statement to your home or office.
+    long_description: >
+      <p>Made from a wooden panel with pigment pastes, mica powders, acrylic paints, glitter, crushed glass and epoxy clear crystals.</p>
+                                   
+  - id: AT0049
+    familly: resin
+    title: Gold Veins Geode
+    path: gold-veins-geode
+    store: 
+      sumup_link: /product/gold-veins-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/gold-veins-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 20 centimetres
+      height: 20 centimetres
+    short_description: >
+      One of a kind geode artwork that will add a luxury statement to your home or office.
+    long_description: >
+      <p>Made from a wooden panel with pigment pastes, mica powders, acrylic paints, glitter, crushed glass and epoxy clear crystals.</p>
+                                   
+  - id: AT0050
+    familly: resin
+    title: green-river-resin-wall-art
+    path: green-river-resin-wall-art
+    store: 
+      sumup_link: /product/green-river-resin-wall-art
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/green-river-resin-wall-art.jpeg
+    color: "#005983"
+    dimensions:
+      width: 30 centimetres
+      height: 30 centimetres
+    short_description: >
+      One of a kind geode artwork that will add a luxury statement to your home or office.
+    long_description: >
+      <p>Stunning and luxurious piece, unique with this natural green and gold colours with the perfect texture of glass and acrylic.</p> 
+        <p> Measurements: height: 10inch, width: 10inch. Ready to hang</p>
+                                              
+  - id: AT0051
+    familly: resin
+    title: Green Sparkle Geode
+    path: green-sparkle-geode
+    store: 
+      sumup_link: /product/green-sparkle-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/green-sparkle-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 30 centimetres
+      height: 30 centimetres
+    short_description: >
+      One of a kind geode artwork that will add a luxury statement to your home or office.
+    long_description: >
+      <p>Stunning and luxurious piece, unique with this natural green and gold colours with the perfect texture of glass and acrylic.</p> 
+        <p> Ready to hang</p>   
+                                                         
+  - id: AT0052
+    familly: resin
+    title: pink-river-resin-artwork
+    path: pink-river-resin-artwork
+    store: 
+      sumup_link: /product/pink-river-resin-artwork
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/pink-river-resin-artwork.jpeg
+    color: "#005983"
+    dimensions:
+      width: 30 centimetres
+      height: 30 centimetres
+    short_description: >
+      Unique and luxurious piece, this beautiful design is combined with some clear epoxy crystals and different with texture s made of glass and acrylic.
+    long_description: >
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p> 
+        <p>Dimensions 10x 10 inches. Ready to hang</p> 
+                                                                    
+  - id: AT0053
+    familly: resin
+    title: Pink Celestial
+    path: pink-celestial
+    store: 
+      sumup_link: /product/pink-celestial
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/pink-celestial.jpeg
+    color: "#005983"
+    dimensions:
+      width: 20 centimetres
+      height: 20 centimetres
+    short_description: >
+      Unique and luxurious piece, this beautiful design is combined with some clear epoxy crystals and different with texture s made of glass and acrylic.
+    long_description: >
+      <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p> 
+        <p>Dimensions 10x 10 inches. Ready to hang</p>      
+      
