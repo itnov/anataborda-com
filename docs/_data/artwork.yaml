@@ -890,5 +890,44 @@ products:
       Unique and luxurious piece, this beautiful design is combined with some clear epoxy crystals and different with texture s made of glass and acrylic.
     long_description: >
       <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p> 
-        <p>Dimensions 10x 10 inches. Ready to hang</p>      
+        <p>Dimensions 10x 10 inches. Ready to hang</p> 
+                                                                            
+  - id: AT0054
+    familly: resin
+    title: space-dark-geode
+    path: space-dark-geode
+    store: 
+      sumup_link: /product/space-dark-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/space-dark-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 60 centimetres
+      height: 90 centimetres
+    short_description: >
+      Unique and luxurious piece, this beautiful design is combined with mirror, some clear epoxy crystals and different textures made of glass and acrylic.
+    long_description: >
+      <p>This exciting artwork is breath taking with its unique flow of white crystal sand and featured with resin crystals smoked crystals mirror and glass.</p> 
+        <p> Size 90cm x 60cm. Ready to hang in both directions</p> 
+                                                                                    
+  - id: AT0055
+    familly: resin
+    title: Sparkly Mint Fluorite Geode
+    path: sparkly-mint-fluorite-geode
+    store: 
+      sumup_link: /product/sparkly-mint-fluorite-geode
+    category: Geode
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/sparkly-mint-fluorite-geode.jpeg
+    color: "#005983"
+    dimensions:
+      width: 45 centimetres
+      height: 60 centimetres
+    short_description: >
+     <p>This artwork is not available, but I can do a similar design.</p> 
+          Unique and luxurious piece, this beautiful design is combined with real mirror integrated on artwork, clear epoxy crystals and different textures made of glass and acrylic.
+    long_description: >
+      <p>Beautiful and elegant artwork made with Fluorite gemstone chips, and clear resin crystal clusters.</p> 
+        <p> Size 18”x24” Ready to hang</p>    
       
