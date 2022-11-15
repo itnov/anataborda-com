@@ -147,6 +147,7 @@ products:
       sumup_link: /product/wall-hanging-tapestry-chic-bohemian-style
     category: Wall Tapestry
     tags: Wall Tapestry, Crochet Art, Wall Hanging
+    image: assets/images/artwork/wall-hanging-tapestry-chic-bohemian-style.jpeg
     color: "#005983"
     # dimensions:
     #   width: 69 centimetres
@@ -166,11 +167,11 @@ products:
       sumup_link: /product/wall-hanging-tapestry-in-crochet-salt-caramel
     category: Wall Tapestry
     tags: Tapestry, Crochet, Crochet Art, Wall Hanging
+    image: assets/images/artwork/wall-hanging-tapestry-in-crochet-salt-caramel.jpeg
     color: "#005983"
     # dimensions:
     #   width: 43 centimetres
     #   height: 75 centimetres
-    
     short_description: >
       This beautiful project represent the harmony of the coral reefs reality, giving you a serenity feeling when you looking at this art tapestry.
     long_description: >
@@ -904,7 +905,7 @@ products:
     color: "#005983"
     dimensions:
       width: 60 centimetres
-      height: 90 centimetres
+      height: 90 centimetresgeode-crystal-agate
     short_description: >
       Unique and luxurious piece, this beautiful design is combined with mirror, some clear epoxy crystals and different textures made of glass and acrylic.
     long_description: >
