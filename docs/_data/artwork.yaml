@@ -1,8 +1,10 @@
 products:
   - id: AT0001
     familly: resin
-    title: Resin beach, Unique Shape Art, Apartment Decor, Send a gift
+    title: Resin Green Lagoon
     path: resin-green-lagoon
+    store: 
+      sumup_link: /product/green-lagoon
     category: Seascapes
     tags: Seascape, Ocean Themed, Wall Art, Resin ArtWork
     image: assets/images/artwork/resin-green-lagoon.webp
@@ -216,8 +218,10 @@ products:
 
   - id: AT0013
     familly: resin
-    title: Resin Ocean Art
-    path: resin-ocean-art
+    title: 3D White Beach
+    path: 3d-white-beach
+    store: 
+      sumup_link: /product/3d-white-beach
     category: Seascapes
     tags: Seascape, Ocean on Wall, Resin ArtWork
     image: assets/images/artwork/resin-ocean-art.webp
@@ -303,6 +307,8 @@ products:
     familly: resin
     title: Underwater Artwork
     path: underwater-artwork
+    store: 
+      sumup_link: /product/underwater-art-in-wooden-log
     category: Seascapes
     tags: Seascape, Ocean on Wall, Resin ArtWork
     image: assets/images/artwork/underwater-artwork.webp
@@ -729,3 +735,47 @@ products:
       </strong>
       <p>Each piece is handmade in an art studio, and may have small imperfections on the surface of the resin such as fine bubbles, ripples or small particles that have found a way to the painting and cured within the resin during its 24-48 hour drying stage, if you want to see more photos of a piece or would like to request a video please contact me.</p>
       <p> This item is no longer available, please aloud me 8 to 10 days to create a similar one.</p>
+                    
+  - id: AT0046
+    familly: resin
+    title: Geode crystal agate
+    path: geode-crystal-agate
+    store: 
+      sumup_link: /product/geode-crystal-agate
+    category: Agate Slice
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/geode-crystal-agate.jpeg
+    color: "#005983"
+    dimensions:
+      width: 49 centimetres
+      height: 60 centimetres
+    short_description: >
+      A wonderful wall decor with a form of an Agate slice stone. This piece contain clear resin crystal clusters and mirror in the middle.
+    long_description: >
+      <strong>
+        This elegant artwork is one of a kind geode art sculpture, that will add a luxury statement to your home or office. Can be displayed on the wall ( different positions), on an easel, on a table, etc…..just use be creative.
+      </strong>
+      <p>This artwork is made of premium quality epoxy resin (non-toxic). It will be a wonderful gift for your friends and loved ones.</p>
+      <p> Size 49cm x 60cm. Ready to hang</p>
+                          
+  - id: AT0047
+    familly: resin
+    title: Blue Agate Slice
+    path: blue-agate-slice
+    store: 
+      sumup_link: /product/blue-agate-slice
+    category: Agate Slice
+    tags: Resin Geode, Crystal Art, Wall Decor
+    image: assets/images/artwork/blue-agate-slice.jpeg
+    color: "#005983"
+    dimensions:
+      width: 49 centimetres
+      height: 60 centimetres
+    short_description: >
+      Unique and original resin agate slice, one of a kind geode artwork that will add a luxury statement to your home or office.
+    long_description: >
+      <strong>
+        This beautiful piece can be displayed on a wall or an easel/stand…. the effect is amazing!
+      </strong>
+      <p>Made from a wooden panel with pigment pastes, mica powders, acrylic paints, glitter, crushed glass and epoxy clear crystals.</p>
+      <p> Measurements: height: 22.5inch / 57cm width: 13.5 inch / 34cm. Ready to hang</p>
