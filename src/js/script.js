@@ -120,6 +120,7 @@
             success: function (data) {
                 form[0].reset();
                 $(".form-status").addClass('status-valid');
+                $(".form-status").text('Thank you! I will contact you soon.');
             },
             error: function (data) {
                 form[0].reset();
