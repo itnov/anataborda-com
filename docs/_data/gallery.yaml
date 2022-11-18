@@ -1,22 +1,22 @@
 
 resin_categories:
   seascapes:
-    image: assets/images/artwork/resin/seascape.webp
+    image: assets/images/resin/seascape.webp
     description: some description
   resinclock: 
-    image: assets/images/artwork/resin/resinclock.jpeg
+    image: assets/images/resin/resinclock.jpeg
     description: some description 
   geode: 
-    image: assets/images/artwork/resin/geode.jpeg
+    image: assets/images/resin/geode.jpeg
     description: some description
   servingcuttingboard: 
-    image: assets/images/artwork/resin/servingcuttingboard.jpeg
+    image: assets/images/resin/servingcuttingboard.jpeg
     description: some description 
   jewellerybox: 
-    image: assets/images/artwork/resin/jewellerybox.jpeg
+    image: assets/images/resin/jewellerybox.jpeg
     description: some description 
   agateslice: 
-    image: assets/images/artwork/resin/agateslice.jpeg
+    image: assets/images/resin/agateslice.jpeg
     description: some description
 
 
