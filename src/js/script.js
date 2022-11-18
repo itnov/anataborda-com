@@ -101,30 +101,30 @@
         });
     }
 
-})(jQuery);
+    jQuery('#form-contact-btn').on('click', function (event) {
+        event.preventDefault();
 
-function formContactSubmit(event){
-    event.preventDefault();
-
-    var form = $(event.target.closest('form'));
-    $(".form-status").removeClass('status-invalid')
-
-    if (!form[0].checkValidity()) {
-        $(".form-status").addClass('status-invalid');
-        return;
-    }
-
-    $(".form-status").removeClass('status-invalid');
-    $.ajax({
-        type: "POST",
-        url: form.attr("action"),
-        data: form.serialize(),
-        success: function (data) {
-            form[0].reset();
-            $(".form-status").addClass('status-valid');
-        },
-        error: function (data) {
-            form[0].reset();
+        var form = $(event.target.closest('form'));
+        $(".form-status").removeClass('status-invalid')
+    
+        if (!form[0].checkValidity()) {
+            $(".form-status").addClass('status-invalid');
+            return;
         }
+    
+        $(".form-status").removeClass('status-invalid');
+        $.ajax({
+            type: "POST",
+            url: form.attr("action"),
+            data: form.serialize(),
+            success: function (data) {
+                form[0].reset();
+                $(".form-status").addClass('status-valid');
+            },
+            error: function (data) {
+                form[0].reset();
+            }
+        });
     });
-}
+
+})(jQuery);
