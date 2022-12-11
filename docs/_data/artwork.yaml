@@ -609,13 +609,13 @@ products:
 
   - id: AT0037
     familly: resin
-    title: Gold&Green Resin geode
-    path: gold-&-green-esin-geode
+    title: Gold & Green Resin geode
+    path: gold-and-green-resin-geode
     store: 
       sumup_link: /product/gold-and-green-resin-geode
     category: Geode
     tags: Resin Geode, Crystal Art, Wall Decor
-    image: assets/images/artwork/gold-&-green-esin-geode.jpeg
+    image: assets/images/artwork/gold-and-green-resin-geode.jpeg
     color: "#005983"
     dimensions:
       diameter: 50 centimetres

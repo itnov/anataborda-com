@@ -3,6 +3,7 @@
 .idea/
 .sass-cache
 .parcel-cache
+.jekyll-metadata
 docker-compose.yml
 old
 node_modules/

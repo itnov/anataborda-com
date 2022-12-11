@@ -2,26 +2,34 @@
 layout: null
 search: exclude
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    {% for page in site.pages %}
+    {% for nav_link in site.data.config.nav_links %}
     <url>
-        <loc>{{page.url}}</loc>
+        <loc>{{ site.baseurl | prepend: site.url | append: nav_link.url }}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
     </url>
     {% endfor %}
-
-    {% for post in site.posts %}
+    {% assign products_by_category_resin = site.data.artwork.products | where: "familly", "resin" | group_by: 'category' %}
+    {% for product_group in products_by_category_resin %}
+    {% for product in product_group.items %}
+    {% if product.id %}
     <url>
-        <loc>{{post.url}}</loc>
+        <loc>{{ site.baseurl | prepend: site.url | append: "/resin-artwork" }}/{{ product.path }}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
     </url>
+    {% endif %}
     {% endfor %}
-
+    {% endfor %}
+    {% assign products_by_category_tapestry = site.data.artwork.products | where: "familly", "tapestry" | group_by: 'category' %}
+    {% for product_group in products_by_category_tapestry %}
+    {% for product in product_group.items %}
+    {% if product.id %}
+    <url>
+        <loc>{{ site.baseurl | prepend: site.url | append: "/wall-tapestry" }}/{{ product.path }}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+    </url>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
 </urlset>
