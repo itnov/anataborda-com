@@ -1,41 +1,31 @@
 ---
 layout: default
-title: Gallery 
+title: Ana Taborda Gallery
+page.title: Ana Taborda Gallery
 ---
-{% assign gallery_sections = site.data.gallery.sections %}
-{% assign gallery_categories = site.data.gallery.categories %}
+{% assign products_by_familly = site.data.artwork.products | group_by: 'familly' %}
 
-<!-- page title -->
-<section class="page-title bg-primary position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
-  <!-- background shapes -->
-  <img src="{{ 'assets/images/illustrations/page-title.png' | relative_url }}" alt="illustrations" class="bg-shape-1 w-100">
-</section>
-<!-- /page title -->
-
-
+{% include _header_pagetitle_a.html %}
 <section class="section">
   <div class="container">
     <div class="row">
-    {% for gallery_section in gallery_sections %}
-    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-      <div class="card shadow text-center">
-        <div class="position-relative rounded-top progress-wrapper" data-color="{{ gallery_section.color }}">
-          <div class="wave" data-progress="90%"></div>
-        </div>
-        <div class="card-footer bg-white">
-          <h4 class="card-title"><a href="{{ gallery_section.url }}">{{ gallery_section.title }}</a></h4>
-        </div>
-      </div>
+      {% for product_familly_group in products_by_familly %}
+      {% assign ref_category = product_familly_group.name | downcase  | replace: ' ', '' %}
+      {% assign categoryObject = site.data.gallery.familly[ref_category] %}
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-6">
+        <a href="{{ site.baseurl | prepend: site.url | append: categoryObject.url }}">
+          <div class="card text-white card-has-bg click-col">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+                  <small class="card-title mb-2">
+                    {{ categoryObject.name }}
+                  </small>
+                </div>
+              </div>
+          </div>
+        </a>
+      </div> 
+      {% endfor %}
     </div>
-    {% endfor %}
-</div>
-</div>
+  </div>
 </section>
-

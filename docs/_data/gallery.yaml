@@ -26,58 +26,11 @@ categories:
   - Resin Clock
   - Serving Cutting Board
   - Wall Tapestry
-  
-sections:
-    - title: Resin Beach Landscape
-      color: "#fdb157"
-      url: Resin-Landscapes
 
-    - title: Geode Resin Wall Art
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Lagoons
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Wooden Log Art 
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Small Gifts
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Clock
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Gemstones Clock's
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Boards 
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Waves Mirror
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Jewellery Box
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Wooden Jewellery Box
-      color: "#fdb157"
-      url: Resin-Landscapes
-
-    - title: Resin Keychains
-      color: "#fdb157"
-      url: Resin-Landscapes
-      category: gifts
-
-    - title: Coasters
-      color: "#fdb157"
-      url: Resin-Landscapes
-      category: kitchen
+familly:
+  resin:
+    name: Resin Art work
+    url: '/resin-artwork'
+  tapestry:
+    name: Wall Tapestry
+    url: "/wall-tapestry"
