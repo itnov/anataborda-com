@@ -40,10 +40,10 @@ for item, row in artwork_list.items():
         if product.get('familly') is None:
             continue
 
-        id = product['id']
         path = product['path']
-        title = product['title']
-        short_description = product['short_description']
+        product["product_id"] = product['id']
+        product["head_title"] = product['title']
+        product["head_description"] = product['short_description']
  
         work_folder = artwork_folder_resin 
         if product['familly'] == 'tapestry':
@@ -53,25 +53,25 @@ for item, row in artwork_list.items():
 
         print('artwork_file_product_destination:: ', artwork_file_product_destination)
 
-        with open(artwork_src_file_model, 'r') as srcfile, open(artwork_file_product_destination, 'w') as destinationFile:
+        with open(artwork_src_file_model, 'r', encoding="utf-8") as srcfile, open(artwork_file_product_destination, 'w', encoding="utf-8") as destinationFile:
             for line in srcfile:
                 updated_line = line
                 
-                if line.startswith('productID:'):
-                    updated_line = 'productID: %s\n' % id
-                elif line.startswith('  title: '):
-                    updated_line = '  title: %s\n' % title             
-                elif line.startswith('  short_description: '):
-                    updated_line = '  description: %s\n' % short_description             
-                elif re.search(_rex_replace_keys, line):
-                    get_reg = re.search(_rex_replace_keys, line).group(0)
-                    get_key = re.search(_rex_replace_keys, line).group(2).lower()
-                    # print('MATCH:: ', get_reg, get_key)
-                    if product[get_key]:
-                        updated_line = line.replace(get_reg, product[get_key])
-                        # print('MATCH and REPLACE:: ', get_reg, get_key)
+                search_keys = re.search(_rex_replace_keys, line)
+                if search_keys:
+                    regex_key = search_keys.group(1)
+                    get_reg = search_keys.group(0)
+                    product_key = search_keys.group(2).lower()
+
+                    if product[product_key]:
+                        product_key_data = product[product_key]
+
+                        if product_key in ["head_description"]:
+                            clean_html = re.compile(r'<.*?>|[^\w\s.,]')
+                            cleaned_data = " ".join(product_key_data.split())
+                            product_key_data = clean_html.sub('', cleaned_data)
+                        
+                        updated_line = line.replace(regex_key, product_key_data)
 
                 destinationFile.write(updated_line)
             destinationFile.close()
-        # if not path == None:
-        #     shutil.copy(destinationFile.name, work_folder)

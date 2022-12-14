@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0020
+productId: AT0020
 head:
   title: Resin Clock with Real Gemstones and gold butterflies
-  description: description as we want
+  description: This Resin Clock is a great gift for yourself and loved ones.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

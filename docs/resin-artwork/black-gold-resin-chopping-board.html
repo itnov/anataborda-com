@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0034
+productId: AT0034
 head:
   title: Black and Gold Resin Chopping Board
-  description: description as we want
+  description: Stunning style charcuterie board. Each board is completely unique. A beautiful statement piece for any kitchen.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

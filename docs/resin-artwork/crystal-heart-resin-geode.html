@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0038
+productId: AT0038
 head:
   title: Crystal Heart Resin Geode
-  description: description as we want
+  description: Spread the love with this luxury artwork with a huge crystal heart shape, and beautiful crystal clusters made of epoxy resin crystal.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

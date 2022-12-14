@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0027
+productId: AT0027
 head:
   title: 3D Resin Wooden Black Jewellery Box
-  description: description as we want
+  description: Beautiful and elegant black wooden box with lock.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

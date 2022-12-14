@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0003
+productId: AT0003
 head:
   title: Copper & Peach Resin Geode
-  description: description as we want
+  description: Original resin peach and copper with gold effects made in wooden board.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

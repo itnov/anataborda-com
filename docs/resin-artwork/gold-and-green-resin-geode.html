@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0037
+productId: AT0037
 head:
-  title: Gold&Green Resin geode
-  description: description as we want
+  title: Gold & Green Resin geode
+  description: This luxurious and elegant piece is gorgeous full of crystals clusters made of epoxy resin crystal nestled throughout with glass, stones and acrylic. The artist edge flows as a continuation giving this piece an artistic feel.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

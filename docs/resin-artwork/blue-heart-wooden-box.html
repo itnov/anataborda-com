@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0033
+productId: AT0033
 head:
   title: Blue Heart Wooden Box
-  description: description as we want
+  description: Blue wooden box with heart shape.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

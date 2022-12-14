@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0035
+productId: AT0035
 head:
   title: Resin Art, 3D Ocean Sea, Seascape Beach
-  description: description as we want
+  description: 3D resin landscape full of details. Reef coral underwater with boat stuck in the shore....
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

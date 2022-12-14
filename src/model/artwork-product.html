@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: REGEX_ID_REGEX
+productId: REGEX_PRODUCT_ID_REGEX
 head:
-  title: title as expected
-  description: description as we want
+  title: REGEX_HEAD_TITLE_REGEX
+  description: REGEX_HEAD_DESCRIPTION_REGEX
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

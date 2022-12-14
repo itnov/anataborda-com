@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0014
+productId: AT0014
 head:
   title: Rustic Cutting Board Olive Wood 40x20cm - Fluid Art
-  description: description as we want
+  description: The sea is a great gift for yourself and loved ones. Stunning and bright seascape in a beautiful wooden panel.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

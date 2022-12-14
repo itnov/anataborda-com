@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0054
+productId: AT0054
 head:
   title: space-dark-geode
-  description: description as we want
+  description: Unique and luxurious piece, this beautiful design is combined with mirror, some clear epoxy crystals and different textures made of glass and acrylic.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

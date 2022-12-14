@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0031
+productId: AT0031
 head:
   title: Resin Beach Landscape in Canvas
-  description: description as we want
+  description: Realistic seascape.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

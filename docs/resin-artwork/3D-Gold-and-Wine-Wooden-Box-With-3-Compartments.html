@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0032
+productId: AT0032
 head:
   title: 3D Gold and Wine Wooden Box With 3 Compartments
-  description: description as we want
+  description: Gold and red colours in a wooden box with lock...
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

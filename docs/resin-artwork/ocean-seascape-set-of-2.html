@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0039
+productId: AT0039
 head:
   title: Ocean Seascape set Of 2
-  description: description as we want
+  description: Original painting set of two.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

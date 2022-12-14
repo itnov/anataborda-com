@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0046
+productId: AT0046
 head:
   title: Geode crystal agate
-  description: description as we want
+  description: A wonderful wall decor with a form of an Agate slice stone. This piece contain clear resin crystal clusters and mirror in the middle.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

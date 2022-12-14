@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0036
+productId: AT0036
 head:
   title: Amethyst Geode Resin
-  description: description as we want
+  description: This luxurious and elegante piece is gorgeous with four clusters of crystals made of epoxy resin crystal nestled throughout with glass, stones and acrylic.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

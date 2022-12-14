@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0048
+productId: AT0048
 head:
   title: Blue Galaxy Geode
-  description: description as we want
+  description: One of a kind geode artwork that will add a luxury statement to your home or office.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

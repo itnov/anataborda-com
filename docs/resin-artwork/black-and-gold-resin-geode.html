@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0045
+productId: AT0045
 head:
   title: Black & Gold Resin Geode
-  description: description as we want
+  description: Elegante and luxurious piece beautifully reflective with large cluster of crystals in the middle area and crystals points. The artist edge flows as a continuation giving this piece an artistic feel.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

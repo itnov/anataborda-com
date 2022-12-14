@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0006
+productId: AT0006
 head:
   title: Blue Shades Lagoon
-  description: description as we want
+  description: A beautiful resin artwork with bright blue shades and a original shape made in wooden panel.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

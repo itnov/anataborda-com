@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0002
+productId: AT0002
 head:
   title: Resin Wall Clock with Gemstones
-  description: description as we want
+  description: Wall clock decorated with real gemstones like amethyst, aventurine and malachite.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

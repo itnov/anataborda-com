@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0019
+productId: AT0019
 head:
   title: Round Gold Resin Geode
-  description: description as we want
+  description: Gold, white and grey resin abstract painting with decorative glass.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

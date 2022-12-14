@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0052
+productId: AT0052
 head:
   title: pink-river-resin-artwork
-  description: description as we want
+  description: Unique and luxurious piece, this beautiful design is combined with some clear epoxy crystals and different with texture s made of glass and acrylic.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}

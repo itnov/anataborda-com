@@ -1,11 +1,11 @@
 ---
 layout: default-detail
-productID: AT0004
+productId: AT0004
 head:
   title: Fluid Art Resin Clock with Orquideas
-  description: description as we want
+  description: Unique and elegant resin clock with green Orquídeas.
 ---
-{% assign product = site.data.artwork.products | where: 'id', page.productID | first %}
+{% assign product = site.data.artwork.products | where: 'id', page.productId | first %}
 
 {% include _header_pagetitle_a.html %}
 {% if product %}
