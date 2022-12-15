@@ -46,15 +46,31 @@ head:
               {% if product.long_description %}
                 <p>{{ product.long_description }}</p>
               {% endif %}
-              {% if product.dimensions %}
-              <dl class="row">
-                <dt class="col-sm-12">Art Dimensions:</dt>
-                {% for dimension in product.dimensions %}
-                <dt class="col-sm-3">{{ dimension[0] }}:</dt>
-                <dd class="col-sm-9">{{ dimension[1] }}</dd>
-                {% endfor %}
-              </dl>
-              {% endif %}
+            </div>
+            <div class="row">
+              <div class="col-6">
+                {% if product.dimensions %}
+                <dl class="dl-horizontal">
+                  <dt>Art Dimensions</dt>
+                  {% for dimension in product.dimensions %}
+                  <dt>{{ dimension[0] }}:</dt>
+                  <dd>{{ dimension[1] }}</dd>
+                  {% endfor %}
+                </dl>
+                {% endif %}
+              </div>
+              <div class="col-6">
+                {% if product.delivery %}
+                <dl class="dl-horizontal">
+                  <dt>Delivery times</dt>
+                  {% for location in product.delivery %}
+                  {% assign key_name = location[0] %}
+                  <dt>{{ site.data.config.delivery_config[key_name] }}:</dt>
+                  <dd>{{ location[1] }}</dd>
+                  {% endfor %}
+                </dl>
+                {% endif %}
+              </div>
             </div>
           </div>
         </div>

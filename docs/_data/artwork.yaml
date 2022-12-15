@@ -684,7 +684,9 @@ products:
     dimensions:
       width: 35 centimetres
       height: 35 centimetres
-    
+    delivery:
+      uk: fom 3 to 5 days
+      outside_uk: from 7 to 10 days
     short_description: >
       Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
     long_description: >
@@ -896,7 +898,7 @@ products:
                                                                             
   - id: AT0054
     familly: resin
-    title: space-dark-geode
+    title: Space Dark Geode
     path: space-dark-geode
     store: 
       sumup_link: /product/space-dark-geode
@@ -906,7 +908,7 @@ products:
     color: "#005983"
     dimensions:
       width: 60 centimetres
-      height: 90 centimetresgeode-crystal-agate
+      height: 90 centimetres
     short_description: >
       Unique and luxurious piece, this beautiful design is combined with mirror, some clear epoxy crystals and different textures made of glass and acrylic.
     long_description: >

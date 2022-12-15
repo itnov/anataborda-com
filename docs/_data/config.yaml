@@ -57,3 +57,7 @@ nav_links:
 site:
   title: Ana Taborda Art
   locale: en_GB
+
+delivery_config:
+  uk: United kingdom
+  outside_uk: Overseas

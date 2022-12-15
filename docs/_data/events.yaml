@@ -1,0 +1,30 @@
+
+events:
+  event-1:
+    name: exposicao 1
+    location: morada ..
+    date_from: 22 Dez 2022
+    # date_from: every weekend
+    # date_from: every month
+    description_short: so uma frase .....
+    description: >
+      <p>
+        about ther event
+      </p>
+    cost: 0
+    image_url: /assets/images...
+    website: false
+  event-2:
+    name: exposicao 1
+    location: morada ..
+    date_from: 22 Dez 2022
+    # date_from: every weekend
+    # date_from: every month
+    description_short: so uma frase .....
+    description: >
+      <p>
+        about ther event
+      </p>
+    cost: 0
+    image_url: /assets/images...
+    website: false
