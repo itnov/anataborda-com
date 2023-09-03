@@ -2,6 +2,9 @@ products:
   - id: AT0001
     familly: resin
     title: Resin Green Lagoon
+    stock: 1
+    price: 
+      GBP: 175
     path: resin-green-lagoon
     store: 
       sumup_link: /product/green-lagoon
@@ -25,6 +28,9 @@ products:
   - id: AT0002
     familly: resin
     title: Resin Wall Clock with Gemstones
+    stock: 0
+    price: 
+      GBP: 99
     path: resin-wall-clock-with-crystals-handmade-clock
     store: 
       sumup_link: /product/resin-wall-clock-with-crystals-handmade-clock
@@ -46,6 +52,9 @@ products:
   - id: AT0003
     familly: resin
     title: Copper & Peach Resin Geode
+    stock: 1
+    price: 
+      GBP: 230
     path: resin-fine-art-in-copper-and-peach
     store: 
       sumup_link: /product/resin-fine-art-in-golden-and-peach
@@ -66,6 +75,9 @@ products:
   - id: AT0004
     familly: resin
     title: Fluid Art Resin Clock with Orquideas
+    stock: 1
+    price: 
+      GBP: 115
     path: fluid-art-resin-clock-with-orquideas
     store: 
       sumup_link: /product/orquidea-wall-clock
@@ -86,6 +98,9 @@ products:
   - id: AT0005
     familly: resin
     title: Bamboo Serving/Cutting Board with waves
+    stock: 0
+    price: 
+      GBP: 42
     path: bamboo-serving-cutting-board-with-waves
     store: 
       sumup_link: /product/40x28cm-bamboo-serving-cutting-board-with-waves
@@ -119,6 +134,9 @@ products:
   - id: AT0006
     familly: resin
     title: Blue Shades Lagoon
+    stock: 0
+    price: 
+      GBP: 175
     path: blue-shades-lagoon
     store: 
       sumup_link: /product/blue-shades-lagoon
@@ -143,6 +161,9 @@ products:
   - id: AT0007
     familly: tapestry
     title: Wall Hanging Tapestry - Chic Bohemian Style
+    stock: 1
+    price: 
+      GBP: 350
     path: wall-hanging-tapestry-chic-bohemian-style
     store: 
       sumup_link: /product/wall-hanging-tapestry-chic-bohemian-style
@@ -163,6 +184,9 @@ products:
   - id: AT0008
     familly: tapestry
     title: Wall Hanging Tapestry in Crochet - Salt Caramel
+    stock: 0
+    price: 
+      GBP: 95
     path: wall-hanging-tapestry-in-crochet-salt-caramel
     store: 
       sumup_link: /product/wall-hanging-tapestry-in-crochet-salt-caramel
@@ -182,6 +206,9 @@ products:
   - id: AT0009
     familly: resin
     title: Resin Clock Fluid Art - Black Space
+    stock: 1
+    price: 
+      GBP: 50
     path: resin-clock-fluid-art-black-space
     store: 
       sumup_link: /product/resin-clock-fluid-art-black-space
@@ -200,6 +227,9 @@ products:
   - id: AT0011
     familly: resin
     title: Resin Wall Clock 12" Fluid Art
+    stock: 0
+    price: 
+      GBP: 45
     path: resin-wall-clock-fluid-art
     store: 
       sumup_link: /product/resin-wall-clock-12-fluid-art
@@ -221,6 +251,9 @@ products:
   - id: AT0013
     familly: resin
     title: 3D White Beach
+    stock: 1
+    price: 
+      GBP: 248
     path: 3d-white-beach
     store: 
       sumup_link: /product/3d-white-beach
@@ -242,6 +275,9 @@ products:
   - id: AT0014
     familly: resin
     title: Rustic Cutting Board Olive Wood 40x20cm - Fluid Art
+    stock: 0
+    price: 
+      GBP: 49
     path: rustic-cutting-board-olive-wood
     store: 
       sumup_link: /product/handmade-cutting-board-olive-wood-40x20cm
@@ -264,6 +300,9 @@ products:
   - id: AT0015
     familly: resin
     title: Resin Clock 20" Beach Landscape
+    stock: 0
+    price: 
+      GBP: 90
     path: resin-clock-beach-landscape
     store: 
       sumup_link: /product/resin-clock-20-beach-landscape
@@ -286,6 +325,9 @@ products:
   - id: AT0016
     familly: resin
     title: Beach Resin 20" Landscape
+    stock: 0
+    price: 
+      GBP: 88
     path: beach-resin-landscape
     store: 
       sumup_link: /product/beach-resin-20-landscape
@@ -308,6 +350,9 @@ products:
   - id: AT0017
     familly: resin
     title: Underwater Artwork
+    stock: 0
+    price: 
+      GBP: 120
     path: underwater-artwork
     store: 
       sumup_link: /product/underwater-art-in-wooden-log
@@ -329,6 +374,9 @@ products:
   - id: AT0018
     familly: resin
     title: Elegant Resin Wall Clock fluid art
+    stock: 0
+    price: 
+      GBP: 55
     path: elegant-resin-wall-clock-fluid-art
     store: 
       sumup_link: /product/elegant-fluid-art-painted-resin-wall-clock
@@ -351,6 +399,9 @@ products:
   - id: AT0019
     familly: resin
     title: Round Gold Resin Geode
+    stock: 1
+    price: 
+      GBP: 84
     path: round-gold-resin-geode
     store: 
       sumup_link: /product/gold-canvas-wall-art-resin-geode-wall-art
@@ -371,6 +422,9 @@ products:
   - id: AT0020
     familly: resin
     title: Resin Clock with Real Gemstones and gold butterflies
+    stock: 0
+    price: 
+      GBP: 104
     path: resin-clock-fluid-art-with-gold-butterflies
     store: 
       sumup_link: /product/fluid-art-resin-clock-with-gold-butterflies
@@ -399,6 +453,9 @@ products:
   - id: AT0021
     familly: resin
     title: Resin wooden box - green fluid art
+    stock: 0
+    price: 
+      GBP: 33
     path: resin-wooden-box-green-fluid-art
     store: 
       sumup_link: /product/resin-wooden-box-green-fluid-art
@@ -419,6 +476,9 @@ products:
   - id: AT0027
     familly: resin
     title: 3D Resin Wooden Black Jewellery Box
+    stock: 0
+    price: 
+      GBP: 34
     path: resin-wooden-black-jewellery-box-3d
     store: 
       sumup_link: /product/black-wooden-3d-resin-jewellery-box
@@ -441,6 +501,9 @@ products:
   - id: AT0029
     familly: resin
     title: 3D Resin Ocean Clock
+    stock: 0
+    price: 
+      GBP: 79
     path: resin-ocean-clock-3d
     store: 
       sumup_link: /product/resin-beach-clock-custom-ocean-theme
@@ -461,6 +524,9 @@ products:
   - id: AT0030
     familly: resin
     title: Resin 3D island in Wooden Log Slice
+    stock: 0
+    price: 
+      GBP: 124
     path: resin-3d-island-in-wooden-log-slice
     store: 
       sumup_link: /product/resin-3d-island-in-wooden-log-slice
@@ -484,6 +550,9 @@ products:
   - id: AT0031
     familly: resin
     title: Resin Beach Landscape in Canvas
+    stock: 1
+    price: 
+      GBP: 650
     path: resin-beach-landscape-in-canvas
     store: 
       sumup_link: /product/resin-beach-canvas-painting-ocean-waves-resin-seascape
@@ -506,6 +575,9 @@ products:
   - id: AT0032
     familly: resin
     title: 3D Gold and Wine Wooden Box With 3 Compartments
+    stock: 0
+    price: 
+      GBP: 33
     path: 3D-Gold-and-Wine-Wooden-Box-With-3-Compartments
     store: 
       sumup_link: /product/3d-gold-wine-wooden-box-with-3-compartment
@@ -528,6 +600,9 @@ products:
   - id: AT0033
     familly: resin
     title: Blue Heart Wooden Box
+    stock: 0
+    price: 
+      GBP: 29
     path: blue-heart-wooden-box
     store: 
       sumup_link: /product/blue-heart-wooden-box
@@ -548,6 +623,9 @@ products:
   - id: AT0034
     familly: resin
     title: Black and Gold Resin Chopping Board
+    stock: 0
+    price: 
+      GBP: 49
     path: black-gold-resin-chopping-board
     store: 
       sumup_link: /product/black-and-gold-resin-chopping-board
@@ -569,7 +647,10 @@ products:
   - id: AT0035
     familly: resin
     title: Resin Art, 3D Ocean Sea, Seascape Beach
-    path: Resin Art-3D-Ocean-Sea-Seascape Beach
+    stock: 0
+    price: 
+      GBP: 139
+    path: resin-art-3d-ocean-sea-seascape-beach
     store: 
       sumup_link: /product/resin-art-3d-ocean-sea-seascape-beach
     category: Seascapes
@@ -590,6 +671,9 @@ products:
   - id: AT0036
     familly: resin
     title: Amethyst Geode Resin
+    stock: 0
+    price: 
+      GBP: 350
     path: amethyst-geode-resin
     store: 
       sumup_link: /product/amethyst-geode-resin
@@ -611,6 +695,9 @@ products:
   - id: AT0037
     familly: resin
     title: Gold & Green Resin geode
+    stock: 0
+    price: 
+      GBP: 370
     path: gold-and-green-resin-geode
     store: 
       sumup_link: /product/gold-and-green-resin-geode
@@ -632,6 +719,9 @@ products:
   - id: AT0038
     familly: resin
     title: Crystal Heart Resin Geode
+    stock: 1
+    price: 
+      GBP: 360
     path: crystal-heart-resin-geode
     store: 
       sumup_link: /product/crystal-heart-resin-geode
@@ -653,6 +743,9 @@ products:
   - id: AT0039
     familly: resin
     title: Ocean Seascape set Of 2
+    stock: 0
+    price: 
+      GBP: 244
     path: ocean-seascape-set-of-2
     store: 
       sumup_link: /product/ocean-seascape-set-of-2
@@ -674,6 +767,9 @@ products:
   - id: AT0040
     familly: resin
     title: 3D Resin Beach
+    stock: 0
+    price: 
+      GBP: 125
     path: 3D-resin-beach
     store: 
       sumup_link: /product/3d-resin-beach
@@ -699,6 +795,9 @@ products:
   - id: AT0041
     familly: resin
     title: Stingrays family in the ocean
+    stock: 0
+    price: 
+      GBP: 120
     path: stingrays-family-in-the-ocean
     store: 
       sumup_link: /product/stingrays-family-in-the-ocean
@@ -722,6 +821,9 @@ products:
   - id: AT0045
     familly: resin
     title: Black & Gold Resin Geode
+    stock: 0
+    price: 
+      GBP: 264
     path: black-and-gold-resin-geode
     store: 
       sumup_link: /product/black-and-gold-resin-geode
@@ -743,6 +845,9 @@ products:
   - id: AT0046
     familly: resin
     title: Geode crystal agate
+    stock: 1
+    price: 
+      GBP: 290
     path: geode-crystal-agate
     store: 
       sumup_link: /product/geode-crystal-agate
@@ -765,6 +870,9 @@ products:
   - id: AT0047
     familly: resin
     title: Blue Agate Slice
+    stock: 0
+    price: 
+      GBP: 210
     path: blue-agate-slice
     store: 
       sumup_link: /product/blue-agate-slice
@@ -787,6 +895,9 @@ products:
   - id: AT0048
     familly: resin
     title: Blue Galaxy Geode
+    stock: 1
+    price: 
+      GBP: 49
     path: blue-galaxy-geode
     store: 
       sumup_link: /product/blue-galaxy-geode
@@ -805,6 +916,9 @@ products:
   - id: AT0049
     familly: resin
     title: Gold Veins Geode
+    stock: 0
+    price: 
+      GBP: 49
     path: gold-veins-geode
     store: 
       sumup_link: /product/gold-veins-geode
@@ -823,6 +937,9 @@ products:
   - id: AT0050
     familly: resin
     title: green-river-resin-wall-art
+    stock: 1
+    price: 
+      GBP: 89
     path: green-river-resin-wall-art
     store: 
       sumup_link: /product/green-river-resin-wall-art
@@ -842,6 +959,9 @@ products:
   - id: AT0051
     familly: resin
     title: Green Sparkle Geode
+    stock: 1
+    price: 
+      GBP: 89
     path: green-sparkle-geode
     store: 
       sumup_link: /product/green-sparkle-geode
@@ -861,6 +981,9 @@ products:
   - id: AT0052
     familly: resin
     title: pink-river-resin-artwork
+    stock: 0
+    price: 
+      GBP: 89
     path: pink-river-resin-artwork
     store: 
       sumup_link: /product/pink-river-resin-artwork
@@ -880,6 +1003,9 @@ products:
   - id: AT0053
     familly: resin
     title: Pink Celestial
+    stock: 1
+    price: 
+      GBP: 49
     path: pink-celestial
     store: 
       sumup_link: /product/pink-celestial
@@ -899,6 +1025,9 @@ products:
   - id: AT0054
     familly: resin
     title: Space Dark Geode
+    stock: 1
+    price: 
+      GBP: 450
     path: space-dark-geode
     store: 
       sumup_link: /product/space-dark-geode
@@ -918,6 +1047,9 @@ products:
   - id: AT0055
     familly: resin
     title: Sparkly Mint Fluorite Geode
+    stock: 0
+    price: 
+      GBP: 270
     path: sparkly-mint-fluorite-geode
     store: 
       sumup_link: /product/sparkly-mint-fluorite-geode
@@ -929,8 +1061,8 @@ products:
       width: 45 centimetres
       height: 60 centimetres
     short_description: >
-     <p>This artwork is not available, but I can do a similar design.</p> 
-          Unique and luxurious piece, this beautiful design is combined with real mirror integrated on artwork, clear epoxy crystals and different textures made of glass and acrylic.
+     <p>This artwork is not available, but I can do a similar design.</p>
+     Unique and luxurious piece, this beautiful design is combined with real mirror integrated on artwork, clear epoxy crystals and different textures made of glass and acrylic.
     long_description: >
       <p>Beautiful and elegant artwork made with Fluorite gemstone chips, and clear resin crystal clusters.</p> 
         <p> Size 18”x24” Ready to hang</p>    
