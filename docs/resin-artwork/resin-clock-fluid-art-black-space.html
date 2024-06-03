@@ -18,7 +18,7 @@ head:
         {% if product.tags %}
         <p class="font-secondary mb-5">{{ product.tags }}</p>
         {% endif %}
-        <div class="content">
+        <div class="content content-artwork">
           <div class="row-fluid">
             <div class="col">
               {% if product.image %}
@@ -47,16 +47,16 @@ head:
                 <p>{{ product.long_description }}</p>
               {% endif %}
             </div>
+            <hr class="my-4">
             <div class="row">
               <div class="col-6">
                 {% if product.dimensions %}
-                <dl class="dl-horizontal">
-                  <dt>Art Dimensions</dt>
+                <h4 class="mb-4">Artwork Dimensions:</h4>
+                <ul class="list-group list-group-borderless mb-4">
                   {% for dimension in product.dimensions %}
-                  <dt>{{ dimension[0] }}:</dt>
-                  <dd>{{ dimension[1] }}</dd>
+                  <li><b>{{ dimension[0] }}:</b> {{ dimension[1] }}</li>
                   {% endfor %}
-                </dl>
+                </ul>
                 {% endif %}
               </div>
               <div class="col-6">

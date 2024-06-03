@@ -1102,4 +1102,28 @@ blockquote {
   font-weight: 400;
 }
 
+.content-artwork h1, .content-artwork .h1 {
+  font-size: 28px;
+}
+
+.content-artwork h2, .content-artwork .h2 {
+  font-size: 24px;
+}
+
+.content-artwork h3, .content-artwork .h3 {
+  font-size: 22px;
+}
+
+.content-artwork h4, .content-artwork .h4 {
+  font-size: 18px;
+}
+
+.content-artwork h5, .content-artwork .h5 {
+  font-size: 16px;
+}
+
+.content-artwork h6, .content-artwork .h6 {
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=style.css.map */
