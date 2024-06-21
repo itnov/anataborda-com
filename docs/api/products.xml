@@ -17,8 +17,10 @@ layout: api
       <g:availability>In stock</g:availability>
       {% elsif product.stock == 0  %}
       <g:availability>Backorder</g:availability>
+      <g:availability_date>{{ product.availability_date }}</g:availability_date>
       {% else %}
       <g:availability>Out of stock</g:availability>
+      <g:availability_date>{{ product.availability_date }}</g:availability_date>
       {% endif %}
       <g:price>{{ product.price['GBP'] }} GBP</g:price>
       <g:brand>{{ site.data.config.site.title }}</g:brand>
