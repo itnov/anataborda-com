@@ -1090,4 +1090,26 @@ products:
     long_description: >
       <p>Beautiful and elegant artwork made with Fluorite gemstone chips, and clear resin crystal clusters.</p> 
         <p> Size 18”x24” Ready to hang</p>    
+                                                                                  
+  - id: AT0056
+    familly: resin
+    title: Resin Seascape on wooden panel.
+    stock: 0
+    price: 
+      GBP: 75
+    path: resin-seascape-on-wooden-panel
+    store: 
+      sumup_link: /product/resin-seascape-on-wooden-panel-sea-beach-ocean-painting-art-3d-resin-art-resin-wall
+    category: Seascapes
+    tags: Resin Seascapes, Wall Decor
+    image: assets/images/artwork/resin-seascape-on-wooden-panel.jpeg
+    color: "#005983"
+    short_description: >
+      Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
+    long_description: >
+      <strong>
+        Original and unique painting that will bring a spark of life to your lovely home/ office.
+      </strong>
+      <p>This artwork showcasing the beauty of the ocean water and waves. Easy installation to the wall.
+      </p>  
       

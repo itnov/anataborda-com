@@ -36,3 +36,5 @@ collections:
     output: true  
   gallery:
     output: true
+  api:
+    output: false

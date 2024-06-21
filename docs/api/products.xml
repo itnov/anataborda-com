@@ -1,0 +1,30 @@
+---
+layout: api
+---
+{% assign products_by_category = site.data.artwork.products | where: "familly", "resin" | group_by: 'category' %}{% for product_group in products_by_category %}{% for product in product_group.items %}
+    {% assign ref_category = product.familly | downcase  | replace: ' ', '' %}
+    {% assign categoryObject = site.data.gallery.familly[ref_category] %}
+    <item>
+      <g:id>{{ product.id }}</g:id>
+      <g:title>{{ product.title | xml_escape  }}</g:title>
+      <g:description>
+        {{ product.short_description | strip_html }}
+        {{ product.long_description | strip_html }}
+      </g:description>
+      <g:link>{{  product.path | prepend: "/" | prepend: categoryObject.url | absolute_url }}</g:link>
+      <g:image_link>{{ product.image | absolute_url  }}</g:image_link>
+      {% if product.stock > 0 %}
+      <g:availability>In stock</g:availability>
+      {% elsif product.stock == 0  %}
+      <g:availability>Backorder</g:availability>
+      {% else %}
+      <g:availability>Out of stock</g:availability>
+      {% endif %}
+      <g:price>{{ product.price['GBP'] }} GBP</g:price>
+      <g:brand>{{ site.data.config.site.title }}</g:brand>
+      <g:condition>new</g:condition>
+      <g:mpn>{{ product.id }}</g:mpn>
+      <g:adult>no</g:adult>
+    </item>
+  {% endfor %}
+{% endfor %}
