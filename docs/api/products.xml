@@ -1,7 +1,7 @@
 ---
 layout: api
 ---
-{% assign products_by_category = site.data.artwork.products | where: "familly", "resin" | group_by: 'category' %}{% for product_group in products_by_category %}{% for product in product_group.items %}
+{% assign products_by_category = site.data.artwork.products | group_by: 'category' %}{% for product_group in products_by_category %}{% for product in product_group.items %}
     {% assign ref_category = product.familly | downcase  | replace: ' ', '' %}
     {% assign categoryObject = site.data.gallery.familly[ref_category] %}
     <item>
