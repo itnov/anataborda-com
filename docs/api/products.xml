@@ -27,6 +27,9 @@ layout: api
       <g:condition>new</g:condition>
       <g:mpn>{{ product.id }}</g:mpn>
       <g:adult>no</g:adult>
+      {% if product.shipping] && product.shipping.weight] %}
+      <g:shipping_weight>{{ product.shipping.weight }}</g:shipping_weight>
+      {% endif %}
     </item>
   {% endfor %}
 {% endfor %}

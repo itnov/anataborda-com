@@ -110,6 +110,8 @@ products:
     tags: Cutting Board, Board with waves, Bamboo
     image: assets/images/artwork/bamboo-serving-cutting-board-with-waves.jpeg
     color: "#005983"
+    shipping:
+      weight: 2.5 kg
     dimensions:
       width: 40 centimetres
       height: 28 centimetres
