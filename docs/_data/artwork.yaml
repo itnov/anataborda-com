@@ -1134,8 +1134,10 @@ products:
       sumup_link: /product/resin-seascape-on-wooden-panel-sea-beach-ocean-painting-art-3d-resin-art-resin-wall
     category: Seascapes
     tags: Resin Seascapes, Wall Decor
-    image: assets/images/artwork/resin-seascape-on-wooden-panel.jpeg
+    image: assets/images/artwork/resin-seascape-on-wooden-panel.png
     color: "#005983"
+    shipping:
+      weight: 2.5 kg
     short_description: >
       Gift idea for him and for her. This artwork showcasing the beauty of the ocean water and waves.
     long_description: >
